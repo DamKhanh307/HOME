@@ -1,0 +1,147 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*Remove Link Background*/
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
+
+@font-face {
+  font-family: "RandomFont";
+  src: url("adamwarrenpro.ttf");
+}
+
+@font-face {
+  font-family: "RandomFont";
+  src: url("mangat.ttf");
+}
+
+@font-face {
+  font-family: "RandomFont";
+  src: url("RainlyRegular-OVl7O.otf");
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: 'RandomFont';
+  background-image: url('https://1.bp.blogspot.com/-t0RUTm5-bSk/YK476mzz6qI/AAAAAAABNaE/HilGL4Mjv50wSq9GirPv5oY9QAR80haMQCLcBGAsYHQ/w360-h640/Relaxing%2Banime%2Blive%2Bwallpaper.gif');
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-page {
+  height: 30%;
+  width: 100%;
+}
+
+.cover-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.logo-image {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.main {
+  position: relative;
+  height: 310px;
+  width: 100%;
+  overflow: scroll;
+  top: 18%;
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8 {
+  position: relative;
+  right: 7.5%;
+  left: 7.5%;
+  min-height: 20px;
+  width: 85%;
+  background: rgba(251, 251, 250, .6);
+  margin-bottom: 20px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.75) 0.3rem 0.4rem 0px;
+  border: 2px solid rgb(199, 204, 208);
+  transition: transform 1.5s;
+}
+
+.icon_content {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.link {
+  position: relative;
+  text-align: center;
+  color: #333;
+  right: 7.5%;
+  width: 85%;
+  text-decoration: none;
+}
+
+.content1:hover,
+.content2:hover,
+.content3:hover,
+.content4:hover,
+.content5:hover,
+.content6:hover,
+.content7:hover,
+.content8:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width:1081px) {
+  body {
+    background-image: url("https://i.pinimg.com/originals/bd/0a/83/bd0a831c21dca4f865a6a8cc6ee66fab.gif");
+  }
+
+  .main {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: scroll;
+    top: 10%;
+  }
+
+  .cover-page {
+    height: 50%;
+    width: 100%;
+    position: relative;
+  }
+
+  .logo-image {
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+}
