@@ -23,6 +23,7 @@
   font-family: "RandomFont";
   src: url("RainlyRegular-OVl7O.otf");
 }
+
 body,
 html {
   padding: 0;
@@ -33,7 +34,7 @@ html {
 
 body {
   font-family: 'RandomFont';
-  background-image: url('https://1.bp.blogspot.com/-t0RUTm5-bSk/YK476mzz6qI/AAAAAAABNaE/HilGL4Mjv50wSq9GirPv5oY9QAR80haMQCLcBGAsYHQ/w360-h640/Relaxing%2Banime%2Blive%2Bwallpaper.gif');
+  background-image: url('Noel_BG.jpeg');
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,12 +62,11 @@ body {
 
 .main {
   position: relative;
-  height: 310px;
+  height: 350px;
   width: 100%;
   overflow: scroll;
-  top: 18%;
+  top: 15%;
 }
-
 .content1,
 .content2,
 .content3,
@@ -74,7 +74,10 @@ body {
 .content5,
 .content6,
 .content7,
-.content8 {
+.content8,
+.content9,
+.content10,
+.content11{
   position: relative;
   right: 7.5%;
   left: 7.5%;
@@ -113,8 +116,12 @@ body {
 .content5:hover,
 .content6:hover,
 .content7:hover,
-.content8:hover {
+.content8:hover,
+.content9:hover,
+.content10:hover,
+.content11:hover{
   transform: scale(1.2);
+  overflow-x: hidden;
 }
 
 @media (min-width:1081px) {
