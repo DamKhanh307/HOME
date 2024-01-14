@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scalable=no">
+  <title>AOV_LIST</title>
+  <script>
+    // Phần 1: Xử lý sự kiện cho các phần tử có lớp "content"
+    document.addEventListener("DOMContentLoaded", function () {
+      const contents = document.querySelectorAll(".content");
+      contents.forEach(function (content) {
+        content.addEventListener("click", function () {
+          const skin = content.nextElementSibling;
+          const icon = content.querySelector('i');
+          if (skin.style.display === "none" || skin.style.display === "") {
+            skin.style.display = "block";
+          } else {
+            skin.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/fee4adb732.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    * {
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+      -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+      outline: none !important;
+    }
+
+    body {
+      overflow-x: hidden;
+      background: linear-gradient(to left, #ebecc3, #b8f8f8);
+      zoom: 100%;
+    }
+
+    .content {
+      border: 1px solid #ddd;
+      font-size: 20px;
+      cursor: pointer;
+      position: relative;
+      border-radius: 5px;
+      left: 2.0%;
+      margin-bottom: 20px;
+      color: #ffa500;
+    }
+
+    .skin {
+      display: none;
+      position: relative;
+      padding-left: 15%;
+      max-width: 70%;
+    }
+
+    p {
+      background-color: rgba(211, 241, 221, .2);
+      border-radius: 10px;
+      width: 100%;
+      color: #dc143c;
+    }
+
+    .content::hover=>.fa {
+      padding-right: 20px;
+      transition: transform 0.5s ease-in;
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+    }
+  </style>
+</head>
+
+<body>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i> 105: Toro - LianPo</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1052: Đặc Cảnh NYPD -0529 -01<br>●1053: Trung Phong Cắm- 0629 - 02<br>○1054: Thần Thoại
+        Hi Lạp - 0729 - 03
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      106: Krixi - XiaoQiao</ul>
+    <div class='skin'>
+      <p class='content_skins'>○ 1062: Công Chúa Bướm - 6929 - 01<br>●1063: Xứ Sở Thần Tiên - 6a29 - 02<br>●1064: Tiệc
+        Bãi Biển (Recall) -
+        6b29 - 03<br>●1065: Cô Tiên Thỏ - 6c29 - 04<br>○1066: Phó Văn Nghệ -6d29 - 05<br>●1067: Tiểu Yêu Nữ - 6e29 -
+        06<br>●1068: Nữ Hoàng Thiên Nga (Component) - 6f29 - 07<br>○1069: Thần Thoại Hy Lạp - 7029 - 08<br>○10610: Thuỷ
+        Thủ - 7129 - 09<br>10611: Tiệc Bánh Kẹo (Unconfirmed Skin) - 7229- 0a<br>●10612: Lốc Xoáy 7Kinh Hoàng Tatsumaki
+        (Recall + Sprint) - 7329 - 0b<br>10613: Skin?<br>●10614: Nàng Tiên Nổi Loạn - 7529 - 0d
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      107: Zephys - ZhaoYun
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1072: Oán Linh - cd29 - 01<br>●1074: Hiệp Sĩ Bí Ngô - cf29 - 03<br>●1075: Dung Nham -
+        d029 - 04<br>●1076:
+        Siêu Việt (Recall) - d129 - 05<br>○1077: Phi Thương - d229 - 06<br>○1078: Tư Lệnh Viễn Chinh - d329 -
+        07<br>●1079: Hắc Vô Thường - d429 - 08<br>●10710: Inosuke Hashibira - d529 - 09
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      108: Gildur - MoDi - MoZi
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1082: Tiệc Bãi Biển (Recall) -312a - 01<br>○1083: Phượt Thủ -322a - 02<br>○1084: Đại Gia
+        Học Viện - 332a -
+        03<br>○1085: Đại Võ Sư - 342a - 04<br>○1086: Thuyền Trưởng Râu Bạc -352a - 05<br>●1087: Bác Học Thiên Tài - 362a
+        - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      109: Veera - DaJi
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1092: Cô Giáo Hắc Ám - 952a - 01<br>●1093: Goá Phụ Giả Kim - 962a - 02<br>●1094: Nàng
+        Dơi Tuyết - 972a -
+        03<br>●1095: Y Tá Bạo Loạn -983a - 04<br>○1096: Thiên Nga Đen - 992a - 05<br>●1097: Vũ Hội Bóng Đêm (Component)
+        - 9a2a - 06<br>●1098: Kimono -9b2a - 07<br>●1099: Vũ Điệu Samba - 9c2a - 08<br>●10912: Nữ Hoàng Bóng Đếm - 9d2a
+        - 0b
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      110: Kahlii - Ying Zheng
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1102: Cô Dâu Hắc Ám - f92a - 01
+        1103: Skin? - fa2a - 02<br>●1104: Quàng Khăn Đỏ - fb2a - 03<br>●1105: Kim Cô Giáo Chủ - fc2a - 04<br>○1106:
+        Siêu
+        Đầu Bếp - fd2a - 05<br>○1107: Vũ Hội Bóng Đêm - fe2a - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      111: Violet - SunShangXiang - Jin
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1112: Nữ Hoàng Pháo Hoa - 5d2b - 01<br>○1113: Nữ Đặc Cảnh -5e2b - 02<br>●1114: Phi Công
+        Trẻ - 5f2b -
+        03<br>●1115: Mèo Siêu Quậy -602b - 04<br>●1116: Tiệc Bãi Biển (Recall) - 612b - 05<br>○1117: Phó Học Tập -622b -
+        06<br>●1118: Thứ Nguyên Vệ Thần (Tower Skin + Recall) -632b - 07<br>●1119: Pháo Hoa Neon -642b - 08<br>●11110:
+        Đặc Dị -652b - 09<br>●11111: Vợ Người Ta (Recall) -662b - 0a<br>●11112: Tay Súng Siêu Phàm- 672b - 0b<br>○11113:
+        Huy Chương Vàng (Component) - 682b - 0c<br>●11114: Huyết Ma Thần (Recall + Sprint) - 692b - 0d<br>●11115: Lam
+        Tước (Component) - 6a2b - 0e<br>●11116: Thần Long Tỷ Tỷ (Recall) - 6b2b - 0f<br>●11117: DJ Câu Hồn - 6c2b - 10
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      112: Yorn - GongShuBan
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1122: Cung Thủ Bóng Đêm - c12b - 01<br>●1123: Thế Tử Nguyệt Tộc (Recall) - c22b -
+        02<br>●1124: Đặc Nhiệm
+        SWAT - c32b - 03<br>●1125: Phá Vân Tiễn (Component) - c42b - 04<br>●1126: Long Thần Soái (Recall) - c52b -
+        05<br>●1127: Nam Thần Giáng Sinh (Component) - c62b - 06<br>●1128: Soái Ca Học Đường - c72b - 07<br>○1129: Thần
+        Thoại Hi Lạp - c82b - 08<br>●11210: Lục Nguyệt Cung - c92b - 09<br>○11212: Tiệc Bãi Biển - cb2b - 0b<br>●11213:
+        Tư Lệnh Chiến Hạm (Recall) - cc2b - 0c
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      113: Chaugnar - ZhuangZhou
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1132: Ác Mộng Sinh Hoá - 252c - 01<br>○1134: Quang Vinh - 262c - 03
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      114: Omega - Omega - LiuShan
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1143: Người Máy Xanh - 892c - 02<br>○1144: Cỗ Máy Siêu Tốc - 8a2c - 03<br>○1145: Hộ Vệ
+        Ba Bích - 8b2c - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      115: Jinna - GaoJianLi
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1152: Đại Tư Tế - ed2c - 01<br>●1153: Dạ Xoa Vương - ee2c - 02<br>●1154: Hoả Nhãn Ma
+        Vương - ef2c -
+        03<br>○1155: Kim Quang Thánh Đồ - f02c - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      116: Butterfly - JingKe - DaoFeng (Component)
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1162: Xuân Nữ Ngổ Ngáo (Component) - 512d - 01<br>○1163: Thuỷ Thủ (Component) - 522d -
+        02<br>●1164: Teen Nữ
+        Công Nghệ - 532d - 03<br>●1165: Nữ Quái Nổi Loạn (Recall + Sprint) - 542d - 04<br>●1166: Quận Chúa Đế Chế - 552d
+        - 05<br>●1167: Đông Êm Đềm - 562d - 06<br>●1168: Phượng Cửu Thiên (Recall + Sprint) - 572d -07<br>●1169: Cẩm Y
+        Vệ: Chu Tước - 582d - 08<br>●11611: Asuna Tia Chớp - 5a2d - 0b<br>●11612: Stacia (Recall) - 5b2d - 0c<br>●11614:
+        Gánh Anh Đến Cùng (Component) - 5c2d - 0d<br>●11615: Kim Ngư Thần Nữ (Recall) - 5d2d - 0e
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      117: Ormarr - ZhongWuYan
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1172: Cựu Chiến Binh - b52d - 01<br>●1174: Thông Thoả Thích - b62d - 03<br>●1175: Giáo
+        Viên Thể Hình - b72d
+        - 04<br>○1176: Ông Chủ KFC - b82d - 05
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      118: Alice - SunBin</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1182: Nhà Chiêm Tinh - 192e - 01<br>●1183: Phi Hành Gia - 1a2e - 02<br>●1184: Bé Gấu
+        Tuyết - 1b2e -
+        03<br>○1185: Xứ Sở Thần Tiên - 1c2e - 04<br>○1186: Dạ Hội - 1d2e - 05<br>●1187: Tiểu Quỷ Bí Ngô - 1e1e -
+        06<br>●1188: Bé Du Xuân - 1f2e - 07
+
+        1189: Skin? - 202e - 08<br>●11810: Tiểu Tiên Tử- 212e - 0a<br>○11811: Học Viên Điệp Phủ - 222e - 0b<br>●11812:
+        ChiBi-Usa - 232e - 0c
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>
+      119: Mganga - BianQue
+    </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1192: Hề Cung Đình - 7d2e - 01<br>●1193: Tiệc Bánh Kẹo - 7e2e - 02<br>●1194: Pháp Sư Mèo
+        - 7f2e -
+        03<br>○1195: Nhà Hóa Học - 802e - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>120: Mina - BaiQi </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1202: Tiểu Thư Đoạt Hồn - e12e - 01<br>●1203: Chị Đại Lắm Chiêu - e22e - 02<br>●1204:
+        Tiệc Bánh Kẹo - e32e
+        - 03<br>●1205: Kẹo Hay Ghẹo - e42e - 04<br>●1206: Lưỡi Hái Hoàng Kim - e52e - 05<br>○1207: Đào Tạo Siêu Sao -
+        e62e - 06<br>●1208: Nữ Thần Ai Cập - e72e - 07<br>●1209:Linh Xà Yêu Vũ - e82e - 08
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>121: Marja - MiYue</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1212: Nam Hải Yêu Hậu - 452f - 01<br>○1213: Linh Xà Tư Tế - 462f - 02<br>●1214: Hoả Ngọc
+        Nữ Vương - 472f -
+        03<br>○1215: Yêu Nữ Săn Mồi - 482f - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>123: Maloch - LvBu </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1232: Ác Ma Địa Ngục - 0d30 - 01<br>○1233: Tiệc Hoá Trang - 0e30 - 02<br>●1234: Samurai
+        Tử Sĩ - 0f30 -
+        03<br>●1235: Đại Tướng Rô Bốt (Recall) - 1030 - 04<br>●1236: Ông Kẹ Bí Ngô - 1130 - 05<br>○1237: Ác Nhân Vô
+        Tuyến - 1230 - 06<br>●1238: Vũ Hội Bóng Đêm - 1330 - 07
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>124: Ignis - ZhouYu </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1242: Hoả Thuật Sư - 7130 - 01<br>○1243: Quang Vinh - 7230 - 02<br>●1244: Bắc Băng Vương
+        - 7330 -
+        03<br>○1245: Thầy Tế Mặt Trời - 7430 - 04<br>○1246: Thần Mặt Trời - 7530 - 05
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>126: Arduin - XiaHouDun</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1262: Cận Vệ Hoàng Gia -3931 - 01<br>○1263: Quang Vinh - 3a31 - 02<br>●1264: Tà Linh
+        Hiệp Sỹ - 3b31 -
+        03<br>○1265: Chiến Binh Cổ Đại - 3c31 - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>127: Azzen'Ka - ZhenJi </ul>
+    <div class='skin'>
+      <p class='content_skins'>
+        1272: Hoàng Tử Cát (Unconfirmed Skin) - 9d31 - 01<br>○1273: Linh Hồn Lữ Khách - 9e31 - 02<br>●1274: Ghẹo Hay Kẹo
+        - 9f31 - 03<br>●1275: Quỷ Diện Lãng Khách - a031 - 04
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>128: Lữ Bố - CaoCao </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1282: Tiệc Bãi Biển - 0132 - 01<br>●1283: Nam Vương - 0232 - 02<br>○1284: Long Kỵ Sĩ -
+        0332 - 03<br>○1285:
+        Kỵ Sĩ Âm Phủ - 0432 - 04<br>●1286: Đặc Nhiệm SWAT - 0532 - 05<br>●1287: Tư Lệnh Robot (Recall) - 0632 -
+        06<br>○1288: Hoả Long Chiến Thần - 0732 - 07<br>●1289: Ichigo Kurosaki - 0832 - 08<br>●12810: Thần Ngọc -0932 -
+        09<br>●12811: Vũ Điệu Samba - 0a33 -0a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>129: Triệu Vân - DianWei </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1292: Chiến Binh Công Nghệ (Component) - 6532 - 01<br>○1293: Đoạt Mệnh Thương - 6632 -
+        02<br>●1294: Quý
+        Công Tử - 6732 - 03<br>●1295: Dũng Sĩ Đồ Long - 6732 - 04<br>○1296: Quang Vinh - 6932 - 05<br>●1297: Chiến Tướng
+        Mùa Đông - 6a32 - 06<br>●1298: Kỵ Sĩ Tận Thế (Recall) - 6b32 - 07<br>●1299: Cẩm Y Vệ: Hoả Long- 6c32 - 08
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>130: Airi - GongBenWuZang </ul>
+    <div class='skin'>
+      <p class='content_skins'>●1302: Thích Khách -c932 - 01<br>○1303: Ninja Xanh Lá- ca32 - 02<br>○1304: Quái Xế Công
+        Nghệ - cb32 -
+        03<br>●1305: Cấm Vệ Nguyệt Tộc - cc32 - 04<br>●1306: Kiemono (Recall) - cd32 - 05<br>●1307: Bạch Kiemono
+        (Recall) - ce32 - 06<br>○1308: Phó Kiếm Đạo - cf32 - 07<br>●1309: Tiệc Bãi Biển (Component) - d022 -
+        08<br>●13010: Mỵ Hồ - d132 - 09<br>●13011: Đặc Công Tử Diệp - d232 - 0a<br>●13012: Bích Hải Thánh Nữ (Recall +
+        Sprint) + d332 - 0b<br>○13013: Lễ Hội Mùa Xuân (Component) - d432 - 0c<br>●13014: Thánh Nữ Xiêm La - d532 -
+        0d<br>●13016: Thứ Nguyên Vệ Thần – Dimebreaker - d732 - 0f (Recall + Movie)
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>131: Murad - LiBai - Morad</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1312: Thợ Săn Tiền Thưởng - 2d33 - 01<br>●1313: M-TP Thần Tượng Học Đường - 2e33 -
+        02<br>●1314: Đồ Thần Đao
+        - 2f33 - 03<br>●1315: Siêu Việt (Recall) - 3033 - 04<br>○1316: Thiên Tài Sân Cỏ - 3133 - 05<br>○1317: Điệp Viên
+        Anubis - 3233 - 06<br>●1318: Đặc Dị - 3333 - 07<br>●1319: Siêu Việt 2.0 (Recall) - 3433 - 08<br>●13110: Chí Tôn
+        Thần Kiếm -3533 - 09<br>●13111: Dược Sĩ Tình Yêu (Component) - 3633 - 0a<br>●13112: Byakuya Kuchiki - 3733 -
+        0b<br>●13113: Zenitsu Agatsuma (Recall) - 3833 - 0c<br>●13114: Thích Khách Sa Mạc - 3933 - 0d●13115: Quang Vinh
+        - 3a33 - 0e●13116: SSM_ 51 - 3b33 - 0f●13117: Tuyệt Thế Thần Bình (Recall) - 3c33 - 10
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>132: Hayate - MaKeBoLuo</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1322: Bạch Ảnh - 9133 - 01<br>●1323: Chiến Binh Trăng Khuyết - 9233 - 02<br>●1324: Ngân
+        Lang - 9333 -
+        03<br>●1325: Tử Thần Vũ Trụ (Recall) - 9433 - 04<br>●1326: Quỷ Diện - 9533 - 05<br>●1327: Kim Ưng Sát Thủ - 9633
+        - 06<br>○1328: Bạch Lang - 9733 - 07<br>●1329: Bạch Vô Thường - 9833 - 08<br>●13210: Bóng Người Dưới Trăng -
+        9933 - 09<br>●13211: Tu Di Thánh Đế(Recall,Sprint,Intrinsic) - 9a33 - 0a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>133: Valhein - DiRenJie </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1332: Hoàng Tử Quạ -f533 - 01<br>●1333: Vũ Khí Tối Thượng - f633 - 02<br>●1335: Đại Công
+        Tước -f833 -
+        04<br>○1336: Quang Vinh -f933 - 05<br>○1337: Số 7 Thần Sầu -fa33 - 06<br>●1338: Khiêu Chiến - fb33 -
+        07<br>●1339: Cá Mập "Nghiêm Túc" - fc33 - 08<br>●13310: Hoàng Tử Băng - fd33 - 09<br>●13311: Thần Tài - fe33 -
+        0a<br>●13312: Xạ Thần Kagutsuchi (Recall + Component) - ff33 - 0b
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>134: Skud - TangSanZang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1343: Sơn Tặc - de37 - 02<br>○1344: Quang Vinh - df37 - 03<br>●1345: Tà Linh Ma Tướng -
+        e037 - 04<br>○1346:
+        Mafia - e137 - 05<br>○1347: Tiệc Bãi Biển - e237 - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>135: Thane - XianYu</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1352: Kẻ Huỷ Diệt - bd34 - 01
+
+        1353: Hiệp Sĩ Hoàng Kim (Unconfirmed Skin) - be34 - 02<br>○1354: Quang Vinh - bf34 - 03<br>●1355: Mật Vụ - c034
+        - 04<br>○1356: Bác Ong Bay Vừa - c134 - 05
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>136: Ilumia - WuZeTian</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1362: Nữ Chúa Tuyết - 2135 - 01<br>●1363: Thần Mặt Trời - 2235 - 02<br>●1364: Hồng Hoa
+        Hậu - 2335 -
+        03<br>●1365: Thiên Nữ Áo Dài - 2435 - 04<br>○1366: Nữ Hoàng Khí Giới - 2535 - 05<br>○1367: Diva Nổi Loạn - 2635
+        - 06<br>●1368: Khải Huyền Thiên Hậu - 2735 - 07
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>137: Paine - SiMaYi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1372: Khúc Nhạc Tử Vong - 8535 - 01<br>○1373: Phi Vụ Thế Kỷ - 8635 - 02<br>●1374: Công
+        Tước Máu - 8735 - 03
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>139: Kil'Groth - KongFuZi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1392: Cảnh Vệ Biển - 4d36 - 01<br>○1393: Quang Vinh - 4e36 - 02
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>140: Superman - GuanYu</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1402: Chúa Tể Công Lý -b136 - 01<br>●1403: Bất Công Lý - b236 - 02
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>141: Lauriel - Diaochan</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1412: Đoạ Lạc Thiên Sứ - 1537 - 01<br>●1413: Hoả Phượng Hoàng - 1637 - 02<br>●1414: Phù
+        Thuỷ Bí Ngô - 1737
+        - 03<br>●1415: Thánh Quang Sứ (Recall) - 1837 - 04<br>●1416: Hoa Khôi Giáng Sinh - 1937 - 05<br>●1417: Lạc Thần
+        - 1a37 - 06<br>●1418: Tinh Vân Sứ (Recall) - 1b37 - 07<br>●1419: Tiệc Bãi Biển - 1c37 - 08<br>●14110: Thiên Sứ
+        Công Nghệ (Recall) - 1d37 - 09<br>●14111: Phi Thiên (Recall) - 1e37 - 0a<br>●14112: Thứ Nguyên Vệ Thần (Crystal
+        Tower Skin + Recall + Sprint) - 1f37 - 0b
+
+        14113: Skin? - 2037
+
+        14114: Skin? - 2137<br>●14115: Nữ Vương Học Đường - 2237 - 0e<br>●14116: Đôi Cánh Nguyệt Thực - 2337 - 0f<br>●14117: Vũ Khúc Miêu Ảnh - 2437 - 10
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>142: Natalya - CaiWenJi - MeiLin</ul>
+    <div class='skin'>
+      <p class='content_skins'>●1422: Mị Muốn Đi Chơi - 7937 - 01<br>●1423: Nghệ Nhân Lân - 7a37 - 02<br>○1424: Quý Cô
+        Thuỷ Tề - 7b37 -
+        03<br>●1425: Phó Nháy Nhí Nhảnh - 7c37 - 04<br>●1426: Quà Quái Quỷ - 7d37 - 05<br>●1427: Nghiệp Hoả Yêu Hậu
+        (Recall) -7e37 - 06<br>●1428: Băng Tâm Thần Nữ - 7f37 - 07<br>●1429: Nữ Quái Công Nghệ - 7a37 - 08<br>●14210:
+        Nghệ Sĩ Ma Mị - 7b37 - 09
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>144: Taara - ChengYaoJin</ul>
+    <div class='skin'>
+      <p class='content_skins'>●1442: Đại Tù Trưởng - 4138 - 01<br>●1443: Lam Hải Chiến Nữ - 4238 - 02<br>●1444: Hoả
+        Ngọc Nữ Đế - 4338 -
+        03<br>●1445: Tiệc Bãi Biển - 4438 - 04<br>●1446: Hồng Môn Đường Chủ - 4538 - 05<br>○1447: Tư Lệnh Hải Âu - 4638
+        - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>146: Zill - HongFu - Luna</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1462: Lốc Địa Ngục - 0939 - 01<br>●1463: Dung Nham - 0a39 - 02<br>●1464: Cựu Thần Thiên
+        Hà - 0b39 -
+        03<br>●1465: Diệt Nguyệt Tử Sĩ - 0c39 - 04<br>○1466: Thần Mộng Mị - 0d39 - 05<br>●1467: Phong Thần Tu La
+        (Component) - 0e39 - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>148: pyta - JiangJiYa</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1482: Không Tặc - d139 - 01<br>●1483: Băng Hoả Long Sư - d239 - 02<br>○1484: Phi Cơ F1
+        (Component) - d339 -
+        03
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>149: Xeniel - LiuBang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1492: Thiên Sứ Huỷ Diệt -353a - 01<br>○1493: Trung Vệ Thép - 363a - 02<br>○1494: Kim Sí
+        Điểu - 373a -
+        03<br>●1495: Ma Sứ Tận Thế - 383a - 04<br>●1496: Tống Lãnh Tinh Hệ - 393a - 05<br>○1497: Thần Thoại Hy Lạp -
+        3a3a - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>150: Nakroth - HanXin</ul>
+    <div class='skin'>
+      <p class='content_skins'>●1502: Chiến Binh Hoả Ngục - 993a - 01<br>○1503: Quân Đoàn Địa Ngục - 9a3a - 02<br>●1504:
+        Bboy Công Nghệ -
+        9b3a - 03<br>●1505: Siêu Việt (Recall + Sprint) - 9c3a - 04<br>●1506: Khiêu Chiến - 9d3a - 05<br>●1507: Quán
+        Quân - 9e3a - 06<br>●1508: Lôi Quang Sứ (Recall) - 9f3a - 07<br>●1509: Tiệc Bãi Biển - a03a - 08<br>●15010: Thứ
+        Nguyên Vệ Thần (Blue Red Skin + Recall + Sprint) - a13a - 09<br>●15013: Killua - a43a - 0c
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>152: Điêu Thuyền - WangZhaoJun </ul>
+    <div class='skin'>
+      <p class='content_skins'>○1522: Nữ Vương Anh Đào - 613b - 01<br>●1523: Tiệc Bãi Biển -623b - 02<br>○1524: Nữ Y Tá
+        -633b -
+        03<br>●1525: WaVe: Diamonds (Recall) - 643b - 04<br>●1526: Hoa Hậu - 653b - 05<br>●1527: Phù Thủy Bí Ngô -663b -
+        06<br>○1528: Vũ Điệu Nghê Thường - 673b - 07<br>●1529: Tà Linh Pháp Trượng (Component)- 683b - 08<br>●15210: Mèo
+        Công Nghệ - 693a - 09<br>●15211: Thần Ngọc (Component) - 6a3b - 0a<br>●15212: Thất Tịch Tiên Tử (Recall) - 6b3b
+        - 0b<br>●15213:Usagi(Recall) -6c3b - 0c
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>153: Batman - LanLingWang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1533: Đôi Cánh Đại Dương - c63b<br>●1534: Dơi Địa Ngục - c73b
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>154: Yena - HuaMuLan</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1542: Khuyên Bạc - 293c<br>●1543: Thỏ May Mắn (Component) - 2a3c<br>●1544: Chiến Binh
+        Nguyệt Tộc -
+        2b3c<br>○1545: Hoạt Náo Viên - 2c3c<br>○1546: Nữ Hoàng Thể Thao - 2d3c<br>●1547: Dạ Nguyệt Thánh Nữ -
+        2e3c<br>●1548: Giảng Viên Tình Ái - 2f3c<br>○1549: Nữ Cướp Biển - 303c<br>●15410: WaVe: Flame (Component +
+        Recall) - 313c<br>●15411: Vũ Điệu Giáng Sinh - 323c - 0a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>156: Aleister - ZhangLiang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1562: Thiếu Niên Hắc Ám - f13c<br>○1563: Quang Vinh - f23c<br>●1564: Quỷ Soái Nguyệt Tộc
+        - f33c<br>●1565:
+        Siêu Sao Bóng Rổ (Component) - f43c<br>○1566: Xứ Sở Thần Tiên - f53c<br>○1567: Tư Lệnh Viễn Chinh -
+        f63c<br>●1568: Âm Dương Sư (Component) -f73c<br>○1569: Ảo Thuật Gia -f83c<br>●15610: ?<br>●15611:Đặc Vụ Thần
+        Thám -fa3c - 0a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>157: Raz - BuZhiHuoWu</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1573: Đại Tù Trưởng - 563d<br>●1574: Băng Quyền Quán Quân - 573d<br>●1575: Chiến Thần
+        Muay Thái (Recall) -
+        583d<br>●1576: Siêu Việt (Recall) - 593d<br>●1577: Siêu Cấp Tin Tặc (Component) - 5a3d<br>○1578: Saitama
+        (Component) - 5b3d<br>●1579: Mãnh Lôi Thần Quyền - 5c3d<br>●15710: Siêu Sao Bóng Đá (Recall) -5d3d - 09
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>162: Kriknak - NaKoruru - Nakelulu</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1622: Bọ Cánh Bạc - 493f<br>●1623: Yêu Trùng Cổ Mộ - 4a3f<br>●1624: ST.L-162 -
+        4b3f<br>○1625: Bọ Cánh Cam -
+        4c3f
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>163: Ryoma - JuYouJing</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1632: Thợ Săn Tiền Thưởng - ad3f<br>●1633: Đại Tướng Nguyệt Tộc - ae3f<br>●1634: Thanh
+        Long Bang Chủ -
+        af3f<br>●1635: Samurai Huyền Thoại (Recall) - b03f<br>○1636: Dạ Hội - b13f<br>●1637: Chiến Binh Cyborg -
+        b23f<br>●1638: Ultraman (Recall + Sprint) - b33f<br>●1639: Đặc Nhiệm Giáng Sinh -b43f
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>166: Arthur - YaSeWhang - YaSe</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1662: Hoàng Kim Cốt - d940<br>●1663: Lãnh Chúa Xương - da40<br>●1664: Si Tình Kiếm -
+        db40<br>○1665: Siêu
+        Sao Cricket - dc40<br>●1666: Đặc Cảnh Băng Lôi - dd40<br>●1667: Chiến Binh Trăng Khuyết - de40<br>●1668: Siêu
+        Việt (Recall) - df40<br>●1669: Chiến Binh Trăng Máu - e040<br>●16610: Tôn Hổ Vô Song - e140
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>167: Ngộ Không - WuKong</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1672: Đạo Tặc - 3d41<br>●1673: Hoả Nhãn Kim Tinh - 3e41<br>●1674: Siêu Việt (Recall) -
+        3f41<br>●1675: Ngộ
+        Khá Trẩu - 4041<br>●1676: Siêu Việt 2.0 (Recall) - 4141<br>●1677: Đặc Vụ Băng Hầu - 4241<br>●1678: Nhóc Tì Bá
+        Đạo (Component + Recall + Sprint) - 4341<br>●1679: Tề Thiên Ma Hầu - 4441<br>○16710: Cổ Thần Ai Cập -
+        4541<br>●16711: Tân Niên Võ Thần(Recall + Effects Kill) - 4641 - 0a<br>●16712: Robot (HOK) - (Recall) - 4741 -
+        0b
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>168: Lumburr - Niu - NiuMoWang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1683: Dung Nhamh -a241<br>●1684: Cự Thần Viễn Cổ - a341<br>○1685: Máy Đào Khoáng - a441
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>169: Slimz - HouYi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1692: Thỏ Thợ Mỏ - 0542<br>●1693: Chú Thỏ Ngọc - 0642<br>○1694: Thần Tiên -
+        0742<br>○1695: Thỏ Nhồi Bông -
+        0842<br>●1696: Giấc Mơ Trưa - 0942
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>170: Moren - LiuBei</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1702: Anh Thợ Điện - 6942<br>●1703: Lính Cứu Hoả - 6a42<br>○1704: Binh Nhì - 6b42
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>171: Cresh - ZhangFei</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1712: Thợ Sửa Cáp - cd42<br>●1713: Cá Cắn Cáp - ce42<br>●1714: Đại Sư Sushi - cf42
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>173: Fennik - LiYuanFang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1732: Nhà Thám Hiểm - 9543<br>○1733: Đội Đặc Nhiệm - 9643<br>●1734: Tiệc Bánh Kẹo -
+        9743<br>●1735: Tuần Lộc
+        Láu Lỉnh - 9843<br>●1736: Phi Hành Gia - 9943<br>○1737: Tay Đua F1 (Component) - 9a43<br>○1738: Shipper Siêu
+        Thanh - 9b43
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>174: Joker - YuJi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1742: Trò Đùa Tử Vong - f943<br>●1743: Vua Hề - fa43
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>175: Grakk - ZhongKui</ul>
+    <div class='skin'>
+      <p class='content_skins'>●1752: Thuyền Trưởng Râu Đỏ - 5d44<br>○1753: Khô Lâu Đại Tướng - 5e44<br>●1754: Chàng Gấu
+        Tuyết -
+        5f44<br>●1755: Đi Vào Lòng Đất - 6044<br>●1756: Mèo "Thần Tài" - 6144<br>○1757: Sumo - 6244<br>●1758: Tiệc Bãi
+        Biển - 6344<br>○1759: Màu Cờ Sắc Áo - 6444<br>○17510: Vũ Điệu Samba - 6544<br>○17511: Cỗ Xe Tăng -
+        6644<br>●17513: Cận Vệ Mafia - 6744
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>177: Lindis - ChengJiSiHan</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1772: Thám Tử Tư - 2545<br>●1773: Quang Thánh Tiễn - 2645<br>○1774: Quang Vinh -
+        2745<br>●1775: Nữ Vương
+        Pháo Hoa (Component) - 2845<br>○1776: Dạ Tiệc - 2945<br>○1777: Đồng Phục Shihakusho - 2a45<br>●1779: Đặc Vụ Thần
+        Thám - 2b45
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>180: Max - NeZha</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1802: Hiệp Sĩ Nhí -5146<br>○1803: Găng Tay Vàng - 5246<br>○1804: Quang Vinh -
+        5346<br>●1805: Thần Đồng Sinh
+        Hoá - 5446<br>○1806: Thần Thoại Hy Lạp - 5546
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>184: Helen - Payna - CaiWenJi</ul>
+    <div class='skin'>
+      <p class='content_skins'>
+        1842: Skin? - e147<br>○1844: Ngủ Trong Rừng - e247<br>●1845: Hotgirl Trà Sữa - e347<br>●1846: Hồng Liên Tiên Tử
+        - e437
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>186: Teemee - TaiYiZhenRen - TiMi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1862: Xiếc Cung Đình - a948<br>○1864: Tay Đua Siêu Tốc (Component) - ab48<br>○1865: Thần
+        Thoại Hy Lạp -
+        ac48<br>○1866: Thịt Xiên Nướng - ad48
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>187: Arum - DongHuangTaiYi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1872: Thú Vệ Cổ Mộ - 0d49<br>●1873: Vũ Khúc Long Hổ (Recall) - 0e49<br>●1874: Linh Tượng
+        Vu Nữ -
+        0f49<br>●1875: Vũ Khúc Thần Sứ (Recall) - 1049<br>●1876: Thỏ May Mắn - 1149<br>●1877: Nữ Hoàng Gấu Xám -
+        1249<br>●1879: Quản Lí Tài Năng - 1449
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>189: Krizzix - GuiGuZi</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1892: Cún Siêu Quậy - d549<br>○1893: Đội Đặc Nhiệm - d649<br>○1894: Nghệ Sĩ Đường Phố -
+        d749
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>190: Tulen - ZhuGeLiang</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1902: Nhà Thám Hiểm - 394a<br>●1903: Tân Thần Thiên Hà (Recall) - 3a4a<br>○1904: Phù
+        Thuỷ Kiến Tạo -
+        3b4a<br>●1905: Đông Êm Đềm - 3c4a<br>○1906: Phó Kỷ Luật - 3d4a<br>●1907: Tân Thần Hoàng Kim (Recall) -
+        3e4a<br>●1908: Chí Tôn Kiếm Tiên (Recall + Sprint) - 3f4a<br>○1909: Dạ Hội - 404a<br>●19010: Thần Sứ STL-79
+        (Component + Recall) - 414a<br>●19011: Hoả Thần Long Tộc (Component) - 424a<br>●19012: Đại Úy Athanor -
+        434a<br>●19013: Tân Niên Vệ Thần (Recall) - 444a<br>●19014:Tiêu Dao Vũ Thần(Recall + Movie + Shownode) - 454a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>191: Rouie - DaQiao</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1912: Sứ Giả Vũ trụ - 9d4a<br>●1913: Công Chúa Hoả Long (Component) - 9e4a<br>○1914:
+        Tuần Lộc Đáng Yêu
+        -9f4a<br>○1915: Vẹt Cầu Vồng - a04a<br>○1917: Quang Vinh (Component) - a14a
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>192: Celica - HuangZhong - Brunhilda</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1922: Nữ Cao Bồi - 014b<br>●1923: Đếm Cừu (Component) - 024b
+
+        1924: Skin?
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>193: Amily - LaFeiEr</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1932: Đặc Cảnh NYPD - 654b<br>●1933: Đặc Công Nhện Đỏ - 664b<br>●1934: Thư Ký -
+        674b<br>●1935: Thỏ May Mắn
+        - 684b<br>●1936: Võ Thần Thiên Hà - 694b<br>○1937: Hội Ám Hoàng (Component) - 6a4b<br>○1938: Nữ Đội Trưởng -
+        6b4b
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>194: Wiro - SuLie</ul>
+    <div class='skin'>
+      <p class='content_skins'>
+        1942:Tiệc Bãi Biển - 01 (Coming Soon)
+        1943:Thứ Nguyên Vệ Thần - 02 (Coming Soon)
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>195: Enzo - BaiLiXuanCe</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1952: Phẩm Chất Quý Tộc - 2d4c<br>●1953: Chiến Binh Trăng Khuyết - 2e4c<br>○1954: Thần
+        Thoại Hi Lạp -
+        2f4c<br>○1955: Leo Núi Tuyết - 304c<br>●1956: Hồng Hạc Thị Vệ - 314c<br>○1957: Sát Quỷ Đoàn - 324c
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>196: Elsu - Elsu</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1962: Cảnh Vệ Thảo Nguyên - 914c<br>○1963: Mafia - 924c<br>●1964: Guitar Tình Ái
+        (Recall) - 934c<br>●1965:
+        Chiến Binh Bóng Tối - 944c<br>●1966: Sứ Giả Tận Thế (Recall) - 954c<br>○1967: Tuyết Ưng - 964c<br>●1968: Xạ Thủ
+        Tinh Linh - 974c<br>●19610: Trấn Thiên Phi Hồ - 994c(Recall - Movie)
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>199: Eland'orr - Li</ul>
+    <div class='skin'>
+      <p class='content_skins'>○1992: Soái Tặc - bd4d<br>○1993: Phi Vụ Thế Kỷ - be4d<br>○1994: Học Viện Carano -
+        bf4d<br>●1995: Siêu Thám
+        Tử - c04d<br>●1996: Chú Ong Bay Cao (Component) - c14d
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>501: Tel'Annas - Tel'Annas</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5012: Cảnh Vệ Rừng - b5c3<br>●5013: Giám Thị Thân Thiện - b6c3<br>●5014: Chung Tình Tiễn
+        - b7c3<br>○5015:
+        Thánh Nữ Mật Hội -b8c3<br>●5016: Thần Sứ F.E.E-X1 (Recall) - b9c3<br>●5017: Cẩm Y Vệ: Phi Ưng - bac3<br>○5018:
+        Dạ Hội - bbc3<br>●5019: Thứ Nguyên Vệ Thần (Soldier Skin + Recall + Sprint) - bcc3
+
+        50110: Skin? -bdc4<br>●50111: Công Chúa Mộng Mơ - bec3 -.0a<br>●50112: Vũ Khúc Yêu Hồ (Recall) - bfc3 -
+        0b<br>●50113: Tân Niên Vệ Thần (Recall + Sprint) - c0c3 - 0c<br>●50114: Nghìn Lẻ Một Đêm - c1c3 - 0d<br>●50115:
+        Quang Vinh (Component) - c2c3 - 0e
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>502: Astrid - Astrid - YaDianNa</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5022: Bạch Kiếm Tiểu Thư - 19c4<br>●5023: Siêu Sao Bóng Chày - 1ac4<br>○5024: Tổ Trưởng
+        Học Đường -
+        1bc4<br>○5025: Thần Thoại Hy Lạp - 1cc4<br>○5026: Tổng Tài - 1dc4<br>●5027: Thần Trí Tuệ -1ec4
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>503: Zuka - Zuka</ul>
+    <div class='skin'>
+      <p class='content_skins'>●5032: Khúc Khôn Cầu (Uncorfirmed Skin) - 7dc4 - 01<br>○5033: Đại Phú Ông - 7ec4 -
+        02<br>●5034: Giáo Sư Sừng
+        Đỏ - 7fc4 - 03<br>○5035: Phát Tài - 80c4 - 04<br>●5036: Gấu Nhồi Bông - 81c4 - 05<br>●5037: Diệt Nguyệt Nguyên
+        Soái -82c4 - 06<br>○5038: Đầu Bếp Hoàng Cung -83c4 - 07<br>●5039: Mãnh Hổ -84c4 - 08<br>●50310: Rapper Big Panda
+        - 85c4 - 09
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>504: Wonder Woman - WonderWoman </ul>
+    <div class='skin'>
+      <p class='content_skins'><br>○5042: Thế Chiến - e1c4
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>505: Baldum - Baldum</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5052: Thợ Sửa Ống Nước - 45c5<br>●5053: Liệt Hoả Dung Nham - 46c5<br>○5054: Thần Thoại
+        Hy Lạp -
+        47c5<br>○5055: Thế Giới Kẹo Ngọt - 48c5
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>506: Omen - DarkKnight</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5062: Sĩ Quan Viễn Chinh - a9c5<br>●5063: Ám Tử Đao - aac5<br>●5064: Quỷ Nguyệt Tướng -
+        abc5<br>●5065: Đao
+        Phủ Tận Thế (Recall) - acc5<br>●5066: Chiến Binh Trăng Khuyết - adc5<br>○5067: Thuyền Trưởng Hải Tặc -
+        aec5<br>●5068: Nhạc Sĩ Huyền Thoại (Component) - afc5<br>●5069: Quái Kiệt Guitar - b0c5
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>507: The Flash - Flash</ul>
+    <div class='skin'>
+      <p class='content_skins'>●5072: Tia Chớp Tương Lai - 0dc6
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>508: Wisp - Zhadanren</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5082: Hải Tặc Nhí - 71c6<br>●5083: Thỏ Siêu Quậy - 72c6<br>●5084: Ếch Nhồi Bông - 73c6
+
+        5085: Skin? - 74c6<br>●5086: Máy Phát Quà - 75c6<br>○5087: Rồng Đi Bộ? - 77c6<br>○5088: Cô Bé Bút Chì - 78c6
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>509: Y'Bneth - Ybneth</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5092: Hạt Trưởng Kiểm Lâm - d5c6<br>○5093: Chiến Binh Lục Bảo - d6c6
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>510: Liliana - Liliana</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5102: Hồ Quí Phi - 39c7<br>●5103: Thần Tượng Âm Nhạc - 3ac7<br>●5104: Nguyệt Mị Ly
+        (Recall) -
+        3bc7<br>●5105: Tiểu Thơ Anh Đào (Recall) - 3cc7<br>●5106: Tân Nguyệt Mị Ly (Recall) - 3dc7<br>●5107: Nữ Thần F1
+        - 3ec7<br>●5108: Tiệc Bãi Biển - 3fc7<br>○5109: Thủy Thủ Hồ Ly - 40c7<br>●51010: WaVe: Oscillator (Component +
+        Recall) - 41c7
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>511: Ata - ZhuBaJie</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5112: Tân Thuỷ Thủ - 9dc7<br>○5113: Cao Bồi - 9ec7<br>○5114: Quang Vinh (Component) -
+        9fc7<br>○5115: Mèo Đi
+        Mưa - a0c7
+
+        <br>5116: Skin? - a1c7
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>512: Rourke - Rourke</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5122: Pháo Thủ Tuộc Neo - 01c8<br>●5123: Biệt Đội Siêu Hùng - 02c8<br>○5124: Cuồng Tặc -
+        03c8<br>5125: Skin? - 04c8<br>5126: Skin? - 05c8
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i>513: Zata - ShuSheng</ul>
+    <div class='skin'>
+      <p class='content_skins'>○5132: Tư Lệnh Viễn Chinh - 65c8 - 01<br>●5133: Sứ Giả Tinh Hệ - 66c8 - 02<br>●5134: Thần
+        Mặt Trời -67c8 -
+        03<br>●5135: Khiêu Chiến - 68c8 - 04<br>●5136: Tác Gia Đương Đại (Recall) - 69c8 - 05<br>●5137: Chí Tôn Tà
+        Phượng(Recall) - 6ac8 - 06
+      </p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+  <div class='hero'>
+    <ul class='content show'><i class="fa rotate clicked">&#xf6ad</i></ul>
+    <div class='skin'>
+      <p class='content_skins'></p>
+    </div>
+  </div>
+</body>
+
+</html>
