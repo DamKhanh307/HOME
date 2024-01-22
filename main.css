@@ -77,7 +77,8 @@ body {
 .content8,
 .content9,
 .content10,
-.content11{
+.content11,
+.content12{
   position: relative;
   right: 7.5%;
   left: 7.5%;
@@ -119,7 +120,8 @@ body {
 .content8:hover,
 .content9:hover,
 .content10:hover,
-.content11:hover{
+.content11:hover,
+.content12:hover{
   transform: scale(1.2);
   overflow-x: hidden;
 }
