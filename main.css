@@ -34,7 +34,7 @@ html {
 
 body {
   font-family: 'RandomFont';
-  background-image: url('https://inkythuatso.com/uploads/thumbnails/800/2022/06/hinh-nen-nhat-ban-dep-anime-cho-dien-thoai-1-inkythuatso-08-10-20-22.jpg');
+  background-image: url('./bg_tet_mobile.jpg');
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@ body {
   height:200px;
   width:200px;
   position:relative;
-  bottom:15%;
+  bottom:-10%;
   left:-1%;
 }
 .banh_chung-l{
@@ -74,8 +74,8 @@ body {
   height:200px;
   width:200px;
   position:relative;
-  bottom:15%;
-  left:70%;
+  bottom:13%;
+  left:55%;
 }
 .banh_chung-r{
   height:200px;
@@ -173,5 +173,28 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+  }
+  .corner-l{
+    height:200px;
+    width:200px;
+    position:relative;
+    bottom:15%;
+    left:-1%;
+  }
+  .banh_chung-l{
+    height:200px;
+    width:200px;
+  }
+  .corner-r{
+    height:200px;
+    width:200px;
+    position:relative;
+    bottom:47%;
+    right:0%;
+    left:85%;
+  }
+  .banh_chung-r{
+    height:200px;
+    width:200px;
   }
 }
