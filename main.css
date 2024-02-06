@@ -28,7 +28,7 @@ body,
 html {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -59,7 +59,28 @@ body {
   width: 150px;
   border-radius: 50%;
 }
-
+.corner-l{
+  height:200px;
+  width:200px;
+  position:relative;
+  bottom:15%;
+  left:-1%;
+}
+.banh_chung-l{
+  height:200px;
+  width:200px;
+}
+.corner-r{
+  height:200px;
+  width:200px;
+  position:relative;
+  bottom:15%;
+  left:70%;
+}
+.banh_chung-r{
+  height:200px;
+  width:200px;
+}
 .main {
   position: relative;
   height: 350px;
@@ -128,7 +149,7 @@ body {
 
 @media (min-width:1081px) {
   body {
-    background-image: url("https://i.pinimg.com/originals/bd/0a/83/bd0a831c21dca4f865a6a8cc6ee66fab.gif");
+    background-image: url("./bg_tet.jpg");
   }
 
   .main {
