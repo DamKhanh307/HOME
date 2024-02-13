@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon"
+    href="https://pbs.twimg.com/profile_images/1695029660382572544/U4a3VBJT_400x400.jpg"
+    type="image/x-icon">
+  <title>Coser Image</title>
+</head>
+
+<body>
+  <div class="illu">
+    <!-- Thẻ img để hiển thị các ảnh -->
+  </div>
+
+  <script>
+    // Hàm để lấy dữ liệu từ API và gán vào biến globalData
+    function fetchDataAndAssignToGlobalVariable(callback) {
+      fetch('https://api.github.com/repos/Vande541/Di/contents/Asset')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json(); // Parse JSON từ response
+        })
+        .then(data => {
+          // Gán dữ liệu vào biến toàn cục
+          globalData = data;
+          // Sau khi dữ liệu được gán, bạn có thể gọi bất kỳ hàm nào mà bạn muốn sử dụng dữ liệu này ở đây
+          downloadUrls = useGlobalDataInDifferentPlaces();
+          // Gọi callback khi dữ liệu đã sẵn sàng
+          callback(downloadUrls);
+        })
+        .catch(error => {
+          console.error('There was a problem with the fetch operation:', error);
+        });
+    }
+
+    // Hàm sử dụng dữ liệu ở nhiều chỗ khác nhau và trả về downloadUrls
+    function useGlobalDataInDifferentPlaces() {
+      let fileList = globalData; // Không cần parse vì đã được parse trong fetchDataAndAssignToGlobalVariable
+      let urls = [];
+      fileList.forEach(file => {
+        urls.push(file.download_url);
+      });
+      return urls;
+    }
+
+    // Hàm để hiển thị các ảnh trong thẻ img
+    function displayImages(downloadUrls) {
+      // Lặp qua mảng downloadUrls
+      downloadUrls.forEach(url => {
+        // Tạo một phần tử img
+        let imgElement = document.createElement('img');
+        // Gán đường dẫn của ảnh vào thuộc tính src của imgElement
+        imgElement.src = url;
+        // Tìm thẻ div có class là "illu"
+        let illuDiv = document.querySelector('.illu');
+        // Thêm imgElement vào thẻ div
+        illuDiv.appendChild(imgElement);
+      });
+    }
+
+    // Gọi hàm để lấy dữ liệu và gán vào biến globalData
+    fetchDataAndAssignToGlobalVariable(function(downloadUrls) {
+      // Sau khi dữ liệu đã được gán, bạn có thể sử dụng biến downloadUrls để hiển thị ảnh
+      displayImages(downloadUrls);
+    });
+  </script>
+</body>
+
+</html>

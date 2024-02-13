@@ -1,0 +1,12 @@
+.illu {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-items: space-between;
+  flex-wrap: wrap;
+}
+
+img {
+  height: auto;
+  width:100%;
+}
