@@ -6,15 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css" />
   <link rel="icon" href="logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="./node_modules/sakura-js/dist/sakura.min.css">
-  <script src="./node_modules/sakura-js/dist/sakura.min.js"></script>
+  <script src = 'main.js'></script>
   </style>
   <title>Home Page</title>
 </head>
 
 <body>
   <div class="cover-page">
-    <img class='cover-image' src="./bloom.png" loading='lazy' alt="cover">
+    <img class='cover-image' onclick=aono() src="./bloom.png" loading='lazy' alt="cover">
   </div>
   <div class="logo-page">
     <a href="https://damkhanh307.github.io/Home">
@@ -119,27 +118,6 @@
   <audio id="bgAudio" preload autoplay loop>
     <source src="Waiting For Love ( ELaina Cover).mp3" type="audio/mpeg">
   </audio>
-  <script>
-    var sakura = new Sakura('body', {
-    colors: [
-        {
-            gradientColorStart: 'rgba(255, 183, 197, 0.9)',
-            gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
-            gradientColorDegree: 120,
-        },
-        {
-            gradientColorStart: 'rgba(255,189,189)',
-            gradientColorEnd: 'rgba(227,170,181)',
-            gradientColorDegree: 120,
-        },
-        {
-            gradientColorStart: 'rgba(212,152,163)',
-            gradientColorEnd: 'rgba(242,185,196)',
-            gradientColorDegree: 120,
-        },
-    ],
-});
-  </script>
 </body>
 
 </html>
