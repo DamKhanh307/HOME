@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded',function(){
     });
 
     function checkDeviceType() {
-        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        if (isMobile) {
+        var check_mobile= screen.width
+        if (check_mobile <= 900){
             console.log('Mobile Device')
         } else {
             window.location.href ='https://damkhanh307.github.io/Home/404-not-found/'
