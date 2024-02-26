@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'webfont';
+    src: url('../404-not-found/NightmareOrphanage-qnm0.ttf');
+}
+
+@font-face {
+    font-family: 'AM';
+    src: url('./NinjaNaruto-YOn4.ttf');
+}
+body{
+    font-family: 'webfont';
+    height:100vh;
+    width:100%;
+    background-image: url('nino3.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.main{
+    position:relative;
+}
+h3{
+    margin-top:50%;
+    text-align: center;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #b8a0bd, #0aabf4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.pop-up {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    pointer-events: none;
+}
+.pop-up .over-play{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background: rgba(14, 13, 13,.8);
+    opacity:0;
+    box-shadow: 0 25px 25px 25px #2b2d2e;
+    pointer-events: none;
+}
+
+.pop-up .pop-up-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:90%;
+    max-width: 330px;
+    height:55vh;
+    transform: translate(-50%,-50%);
+    background-color: rgba(56, 56, 56,.5);
+    border-radius: 30px;
+    padding:15px;
+    opacity: 0;
+    pointer-events: none;
+}
+.pop-up span{
+    display: inline-block;
+    background-image: linear-gradient(to right, #57ff73, #6092ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900px;
+    margin: 65px 15px;
+    pointer-events: none;
+}
+.pop-up p{
+    font-family: 'AM';
+    background-image: linear-gradient(to right, #a07e9c, #0aabf4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700px;
+    margin: 25px 0;
+    pointer-events: none;
+}
+.pop-up img {
+    position: absolute;
+    top: -90px; 
+    right: -25px;
+    height: 180px;
+    width: 180px;
+    z-index: -1;
+}
