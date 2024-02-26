@@ -24,4 +24,5 @@ document.addEventListener('DOMContentLoaded',function(){
             window.location.href ='https://damkhanh307.github.io/Home/404-not-found/'
         }
     }
+    checkDeviceType()
 })
