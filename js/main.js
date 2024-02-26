@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var content = document.querySelector('.pop-up-content');
     var popup = document.querySelector('.pop-up');
 
-    var images = ["../css/nino1.png", "../css/nino3.png"];
+    var images = ["css/nino1.png", "css/nino3.png"];
 
     menu.addEventListener('click', function menu() {
         content.style.opacity = 1;
