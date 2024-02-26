@@ -1,1 +1,35 @@
-function _0x45d5(_0x52b7b7,_0x30140a){var _0x56f923=_0x56f9();return _0x45d5=function(_0x45d50a,_0x42ecce){_0x45d50a=_0x45d50a-0x196;var _0x2e150e=_0x56f923[_0x45d50a];return _0x2e150e;},_0x45d5(_0x52b7b7,_0x30140a);}(function(_0x480f78,_0xd61cb4){var _0x5223ed=_0x45d5,_0x2aa4f2=_0x480f78();while(!![]){try{var _0x48a2a4=-parseInt(_0x5223ed(0x1ab))/0x1+parseInt(_0x5223ed(0x1a0))/0x2*(-parseInt(_0x5223ed(0x1ae))/0x3)+parseInt(_0x5223ed(0x19f))/0x4+parseInt(_0x5223ed(0x1b2))/0x5*(-parseInt(_0x5223ed(0x1ac))/0x6)+-parseInt(_0x5223ed(0x196))/0x7*(parseInt(_0x5223ed(0x1a3))/0x8)+parseInt(_0x5223ed(0x1b6))/0x9+parseInt(_0x5223ed(0x1a6))/0xa*(parseInt(_0x5223ed(0x197))/0xb);if(_0x48a2a4===_0xd61cb4)break;else _0x2aa4f2['push'](_0x2aa4f2['shift']());}catch(_0x102fb8){_0x2aa4f2['push'](_0x2aa4f2['shift']());}}}(_0x56f9,0x47a69),document['addEventListener']('DOMContentLoaded',function(){var _0xe0062d=_0x45d5,_0x59f24e=document[_0xe0062d(0x1a2)](_0xe0062d(0x1a5)),_0x159a19=document[_0xe0062d(0x1a2)]('h3'),_0x818046=document[_0xe0062d(0x1a2)](_0xe0062d(0x1ba)),_0x18b1f2=document[_0xe0062d(0x1a2)](_0xe0062d(0x1aa)),_0x52e6f4=[_0xe0062d(0x1ad),_0xe0062d(0x19c),_0xe0062d(0x19e),_0xe0062d(0x1b5),_0xe0062d(0x1a1)];_0x159a19[_0xe0062d(0x198)](_0xe0062d(0x1b1),function _0x2c72d6(){var _0x1d009e=_0xe0062d;_0x818046['style'][_0x1d009e(0x1b3)]=0x1,_0x59f24e[_0x1d009e(0x1a7)]['opacity']=0x1,_0x59f24e[_0x1d009e(0x1a7)][_0x1d009e(0x1b8)]='auto';}),_0x18b1f2[_0xe0062d(0x198)](_0xe0062d(0x1b1),function _0x1fe9e9(){var _0x29875e=_0xe0062d;_0x818046[_0x29875e(0x1a7)][_0x29875e(0x1b3)]=0x0,_0x59f24e[_0x29875e(0x1a7)][_0x29875e(0x1b3)]=0x0,_0x59f24e[_0x29875e(0x1a7)][_0x29875e(0x1b8)]=_0x29875e(0x1a4);});function _0xffb82f(){var _0x278cfd=_0xe0062d,_0x2c5488=screen[_0x278cfd(0x1b0)];if(_0x2c5488<=0x384){console[_0x278cfd(0x1af)](_0x278cfd(0x1a8));var _0x427c17=Math[_0x278cfd(0x199)](Math[_0x278cfd(0x1b4)]()*_0x52e6f4[_0x278cfd(0x19b)]);console[_0x278cfd(0x1af)](Math[_0x278cfd(0x199)](Math[_0x278cfd(0x1b4)]())),document[_0x278cfd(0x19a)][_0x278cfd(0x1a7)][_0x278cfd(0x1b7)]=_0x278cfd(0x19d)+_0x52e6f4[_0x427c17]+'\x27)';}else window[_0x278cfd(0x1a9)][_0x278cfd(0x1b9)]='https://damkhanh307.github.io/Home/404-not-found/';}_0xffb82f();}));function _0x56f9(){var _0x1d0e6d=['css/nino5','4899483fienWc','backgroundImage','pointerEvents','href','.pop-up-content','2359KFNtSK','253zXoEuM','addEventListener','floor','body','length','css/nino3.png','url(\x27','css/nino4','1953964OKqDee','583606jZgSfC','css/nino6','querySelector','5392ejMxrF','none','.over-play','349310cNEgsE','style','Mobile\x20Device','location','.pop-up','458519rPHJPT','1130700bIoIGE','css/nino1.png','3cZPgOU','log','width','click','15NqXNbi','opacity','random'];_0x56f9=function(){return _0x1d0e6d;};return _0x56f9();}
+document.addEventListener('DOMContentLoaded', function () {
+    var over_play = document.querySelector('.over-play');
+    var menu = document.querySelector('h3');
+    var content = document.querySelector('.pop-up-content');
+    var popup = document.querySelector('.pop-up');
+
+    var images = ["css/nino1.png", "css/nino3.png","css/nino4.jpg","css/nino5.jpg","css/nino6.jpg"];
+
+    menu.addEventListener('click', function menu() {
+        content.style.opacity = 1;
+        over_play.style.opacity = 1;
+        over_play.style.pointerEvents = 'auto';
+    });
+
+    popup.addEventListener('click', function close_pop_up() {
+        content.style.opacity = 0;
+        over_play.style.opacity = 0;
+        over_play.style.pointerEvents = 'none';
+    });
+
+    function checkDeviceType() {
+        var check_mobile = screen.width;
+        if (check_mobile <= 900) {
+            console.log('Mobile Device');
+            // Set random background
+            var randomIndex = Math.floor(Math.random() * images.length);
+            
+            console.log(Math.floor(Math.random()))
+            document.body.style.backgroundImage = "url('" + images[randomIndex] + "')";
+        } else {
+            window.location.href = 'https://damkhanh307.github.io/Home/404-not-found/';
+        }
+    }
+    checkDeviceType();
+});
