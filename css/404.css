@@ -19,7 +19,7 @@ body{
     position:relative;
 }
 h3{
-    margin-top:50%;
+    margin-top:40%;
     text-align: center;
     cursor: pointer;
     background-image: linear-gradient(to right, #b8a0bd, #0aabf4);
