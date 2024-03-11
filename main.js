@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var devices = window.screen
     var content_place_l = document.querySelector('.content_tray_l')
     var content_place_r = document.querySelector('.content_tray_r')
-    
     content_place_l.addEventListener('mouseover',function(){
         content_place_l.style.opacity = 1;
     })
@@ -18,6 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
         content_place_r.style.opacity = 0;
     })
 
+    var font = ["f1", "f2", "f3", "f4"]; // Array containing font names
+
+    var randomIndex = Math.floor(Math.random() * font.length); // Generating a random index
+    var randomFont = font[randomIndex]; // Getting the random font from the array
+    
+    document.body.style.fontFamily = randomFont; // Applying the random font to the body
+    
     place_click.addEventListener('click', function OpenImg() {
         click_count++;
         if (click_count === 3) {

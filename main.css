@@ -8,7 +8,22 @@
   -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
   outline: none !important;
 }
-
+@font-face {
+  font-family: 'f1';
+  src: url('./adamwarrenpro.ttf');
+}
+@font-face {
+  font-family: 'f2';
+  src: url('./RainlyRegular-OVl7O.otf');
+}
+@font-face {
+  font-family: 'f3';
+  src: url('./mangat.ttf');
+}
+@font-face {
+  font-family: 'f4';
+  src: url('./Travel_Journal.ttf2');
+}
 body {
   margin: 0;
   padding: 0;
