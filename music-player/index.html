@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="cover-image">
+            <img src="" alt="" id="cover">
+        </div>
+        <div class="content">
+            <h2 id="title_music"></h2>
+        </div>
+        <div class="player">
+            <input type="range" id="progress">
+            <div class="main-control">
+                <div id="back"><i class="fa-solid fa-forward"></i></div>
+                <div id="play"><i class="fa-solid fa-play"></i></div>
+                <div id="next"><i class="fa-solid fa-backward"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="upload">
+        <input type="file" id="uploadbtn" accept="audio/*" onchange="handleFileSelect(event)">
+        <label for="uploadbtn">Choose File (mp3, wav, ...)</label>
+
+    </div>
+
+    <audio controls id="audioPlayer" style="display: none;">
+        <!-- This audio player will be used to play the uploaded audio -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.body.style.backgroundImage = "url('https://th.bing.com/th/id/R.3437cdd9e217ae8958d20ed44abf8e1f?rik=7May81YqXc%2fCWQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f6LVoaba.jpg&ehk=gElDJNqhrrxEzZmeESKYA0%2bMYOFzIr4ZyHQaN8BydA8%3d&risl=&pid=ImgRaw&r=0')";
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var image = document.getElementById("cover");
+            image.src = 'https://i.pinimg.com/originals/07/87/e7/0787e75ed249720cdb85f6918c609f61.jpg';
+
+            var click_count = 0;
+            var title = document.getElementById("title_music");
+
+            if (title.innerText.length < 10) {
+                title.style.textAlign = 'center';
+            }
+        });
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var coverImage = document.getElementById("cover");
+
+            // Sự kiện 'contextmenu' (ấn lâu) cho cover
+            coverImage.addEventListener("contextmenu", function (event) {
+                event.preventDefault(); // Ngăn chặn hành động mặc định của context menu
+                showFilePicker(); // Hiển thị hộp thoại chọn tệp hình ảnh
+            });
+
+            // Sự kiện 'dblclick' (double click) cho cover
+            coverImage.addEventListener("dblclick", function () {
+                showFilePicker(); // Hiển thị hộp thoại chọn tệp hình ảnh
+            });
+
+            // Hàm hiển thị hộp thoại chọn tệp hình ảnh
+            function showFilePicker() {
+                const input = document.createElement("input");
+                input.type = "file";
+                input.accept = "image/*";
+
+                // Xử lý sự kiện khi người dùng chọn một tệp
+                input.addEventListener("change", function (event) {
+                    const file = event.target.files[0]; // Lấy tệp hình ảnh từ sự kiện
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = function (e) {
+                            coverImage.src = e.target.result; // Cập nhật hình ảnh cover
+                        };
+                        reader.readAsDataURL(file); // Đọc tệp hình ảnh
+                    }
+                });
+
+                // Kích hoạt hộp thoại chọn tệp hình ảnh
+                input.click();
+            }
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var audioPlayer = document.getElementById("audioPlayer");
+            var progressInput = document.getElementById("progress");
+
+            var playButton = document.getElementById("play");
+
+            playButton.addEventListener("click", function () {
+                if (audioPlayer.paused || audioPlayer.ended) {
+                    // Nếu âm thanh đang dừng hoặc đã kết thúc, phát bắt đầu từ đầu
+                    audioPlayer.play();
+                    playButton.innerHTML = '<i class="fa-solid fa-pause"></i>'; // Thay đổi biểu tượng thành nút tạm dừng
+                } else {
+                    // Nếu âm thanh đang phát, tạm dừng
+                    audioPlayer.pause();
+                    playButton.innerHTML = '<i class="fa-solid fa-play"></i>'; // Thay đổi biểu tượng thành nút phát
+                }
+            });
+            // Update progress input when audio time is updated
+            audioPlayer.addEventListener("timeupdate", function () {
+                // Update the value of the progress input based on current time
+                progressInput.value = audioPlayer.currentTime;
+            });
+
+            // Update audio player maximum duration when metadata is loaded
+            audioPlayer.addEventListener("loadedmetadata", function () {
+                // Set the maximum value of the progress input to the audio duration
+                progressInput.max = audioPlayer.duration;
+            });
+
+            // Handle user interaction with progress input
+            progressInput.addEventListener("input", function () {
+                // Seek to the specified time when user changes the progress input
+                audioPlayer.currentTime = progressInput.value;
+            });
+        });
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0]; // Get the selected file from the onchange event
+
+            if (file) {
+                const titleElement = document.getElementById("title_music");
+                const audioPlayer = document.getElementById("audioPlayer");
+                const cover_image = document.querySelector('.cover-image');
+                const main = document.querySelector('.main')
+
+                // Display the name of the audio file
+                const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
+                titleElement.innerText = fileNameWithoutExtension;
+
+                // Create a URL representing the audio file for playback
+                const fileURL = URL.createObjectURL(file);
+
+                // Show/hide elements
+                const uploadContainer = document.querySelector('.upload');
+                uploadContainer.style.display = 'none';
+
+                cover_image.style.top = '18%';
+                cover_image.style.left = '8%';
+                cover_image.style.transform = 'none';
+                cover_image.style.transition = "all 2s ease";
+                main.style.width = '90%';
+                main.style.transition = "all 1s ease-in";
+                main.style.visibility = 'visible';
+
+                // Update audio player source
+                audioPlayer.src = fileURL;
+                audioPlayer.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>

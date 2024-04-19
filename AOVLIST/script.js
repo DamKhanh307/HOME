@@ -1,29 +1,11 @@
-// Phần 1: Xử lý sự kiện cho các phần tử có lớp "content"
-document.addEventListener("DOMContentLoaded", function() {
-  const contents = document.querySelectorAll(".content");
-  contents.forEach(function(content) {
-    content.addEventListener("click", function() {
-      const skin = content.nextElementSibling;
-      if (skin.style.display === "none" || skin.style.display === "") {
-        skin.style.display = "block";
-      } else {
-        skin.style.display = "none";
-      }
-    });
+fetch('https://run.mocky.io/v3/501df8df-1d03-4ab6-b865-ece3ba04be2d')
+  .then(response => {
+    console.log(response); // In ra đối tượng response để kiểm tra
+    return response.json(); // Giải mã dữ liệu JSON từ phản hồi
+  })
+  .then(data => {
+    console.log(data); // In ra dữ liệu đã được giải mã từ API
+  })
+  .catch(error => {
+    console.error('Đã xảy ra lỗi khi lấy dữ liệu từ API:', error);
   });
-});
-
-const boxes = document.querySelectorAll('.content');
-
-const checkBoxes = () => {
-  const triggerBottom = (window.innerHeight / 5)*4;
-  boxes.forEach((content) => {
-    const boxtop = content.getBoundingClientRect().top;
-    if (boxtop < triggerBottom) content.classlist.add('show');
-    else content.classlist.remove('show');
-  });
-};
-
-window.addEventListener('scroll', checkBoxes);
-
-checkBoxes()
