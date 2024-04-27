@@ -2,7 +2,7 @@ let allEntries = new Map();
 
 // Hàm để tải dữ liệu từ file data-base.txt và lưu vào Map
 async function loadData() {
-    const response = await fetch('data-base.txt');
+    const response = await fetch('./data-base.txt');
     const data = await response.text();
     data.split(/(?=●|○)/).forEach(entry => {
         const id = entry.slice(1, entry.indexOf('\n')); // Giả sử ID là dòng đầu tiên sau ký tự ● hoặc ○
