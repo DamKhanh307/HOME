@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ID Search</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Search ID</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>ID Search</h1>
-        <input type="text" id="searchInput" placeholder="Enter ID prefix..." oninput="searchID()">
-        <ul id="results"></ul>
-    </div>
-    <script src="script.js"></script>
+    <input type="text" id="search" onkeyup="SearchID()">
+    <ul id="results"></ul>
+
+    <script>
+        let allEntries = new Map();
+
+        async function loadData() {
+            try {
+                const response = await fetch('./database.txt');
+                const data = await response.text();
+
+                const entries = data.split(/(?=●|○)/);
+
+                entries.forEach(entry => {
+                    const idIndex = entry.indexOf(':');
+                    if (idIndex !== -1) {
+                        const id = entry.slice(1, idIndex).trim(); // Lấy ID, bỏ qua ký tự đầu (● hoặc ○)
+                        allEntries.set(id, entry.trim()); // Lưu vào Map với key là ID
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function SearchID() {
+            const searchTerm = document.getElementById('search').value.trim().toLowerCase();
+            const resultsList = document.getElementById('results');
+            resultsList.innerHTML = ''; // Clear previous results
+
+            if (searchTerm === '') {
+                return; // If search term is empty, do nothing
+            }
+
+            allEntries.forEach((entry, id) => {
+                if (id.toLowerCase().startsWith(searchTerm)) { // Kiểm tra xem ID có bắt đầu bằng searchTerm không
+                    const listItem = document.createElement('li');
+                    listItem.textContent = entry;
+                    resultsList.appendChild(listItem);
+                }
+            });
+        }
+
+        // Use DOMContentLoaded to ensure HTML is fully loaded before executing JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData(); // Load data when the DOM is fully loaded
+        });
+
+    </script>
 </body>
+
 </html>

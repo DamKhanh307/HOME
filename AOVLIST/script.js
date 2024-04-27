@@ -1,8 +1,6 @@
 let allEntries = new Map();
-
-// Hàm để tải dữ liệu từ file data-base.txt và lưu vào Map
 async function loadData() {
-    const response = await fetch('./data-base.txt');
+    const response = await fetch('./database.txt');
     const data = await response.text();
     data.split(/(?=●|○)/).forEach(entry => {
         const id = entry.slice(1, entry.indexOf('\n')); // Giả sử ID là dòng đầu tiên sau ký tự ● hoặc ○
@@ -36,9 +34,3 @@ function debounce(func, timeout = 300){
         timer = setTimeout(() => { func.apply(this, args); }, timeout);
     };
 }
-
-// Gọi hàm loadData khi trang web được tải
-window.onload = loadData;
-
-// Apply debounce to search function
-document.getElementById('searchInput').addEventListener('input', debounce(searchID));
