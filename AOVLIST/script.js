@@ -1,11 +1,44 @@
-fetch('https://run.mocky.io/v3/501df8df-1d03-4ab6-b865-ece3ba04be2d')
-  .then(response => {
-    console.log(response); // In ra đối tượng response để kiểm tra
-    return response.json(); // Giải mã dữ liệu JSON từ phản hồi
-  })
-  .then(data => {
-    console.log(data); // In ra dữ liệu đã được giải mã từ API
-  })
-  .catch(error => {
-    console.error('Đã xảy ra lỗi khi lấy dữ liệu từ API:', error);
-  });
+let allEntries = new Map();
+
+// Hàm để tải dữ liệu từ file data-base.txt và lưu vào Map
+async function loadData() {
+    const response = await fetch('data-base.txt');
+    const data = await response.text();
+    data.split(/(?=●|○)/).forEach(entry => {
+        const id = entry.slice(1, entry.indexOf('\n')); // Giả sử ID là dòng đầu tiên sau ký tự ● hoặc ○
+        allEntries.set(id, entry);
+    });
+}
+
+// Hàm tìm kiếm ID với debounce
+function searchID() {
+    const input = document.getElementById('searchInput').value;
+    const results = document.getElementById('results');
+    results.innerHTML = ''; // Xóa kết quả trước đó
+
+    if (input.trim() === '') {
+        return; // Nếu không có gì được nhập, không hiển thị gì cả
+    }
+
+    const entry = allEntries.get(input);
+    if (entry) {
+        const li = document.createElement('li');
+        li.textContent = entry;
+        results.appendChild(li);
+    }
+}
+
+// Debounce function
+function debounce(func, timeout = 300){
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => { func.apply(this, args); }, timeout);
+    };
+}
+
+// Gọi hàm loadData khi trang web được tải
+window.onload = loadData;
+
+// Apply debounce to search function
+document.getElementById('searchInput').addEventListener('input', debounce(searchID));

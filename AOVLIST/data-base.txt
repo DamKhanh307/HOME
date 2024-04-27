@@ -1,0 +1,434 @@
+105: Toro - LianPo
+106: Krixi - XiaoQiao
+107: Zephys - ZhaoYun    
+108: Gildur - MoDi - MoZi    
+109: Veera - DaJi    
+110: Kahlii - Ying Zheng    
+111: Violet - SunShangXiang - Jin    
+112: Yorn - GongShuBan    
+113: Chaugnar - ZhuangZhou    
+114: Omega - Omega - LiuShan    
+115: Jinna - GaoJianLi    
+116: Butterfly - JingKe - DaoFeng (Component)    
+117: Ormarr - ZhongWuYan    
+118: Alice - SunBin
+119: Mganga - BianQue    
+120: Mina - BaiQi 
+121: Marja - MiYue
+123: Maloch - LvBu 
+124: Ignis - ZhouYu 
+126: Arduin - XiaHouDun
+127: Azzen'Ka - ZhenJi 
+128: Lữ Bố - CaoCao 
+129: Triệu Vân - DianWei 
+130: Airi - GongBenWuZang 
+131: Murad - LiBai - Morad
+132: Hayate - MaKeBoLuo
+133: Valhein - DiRenJie 
+134: Skud - TangSanZang
+135: Thane - XianYu
+136: Ilumia - WuZeTian
+137: Paine - SiMaYi
+139: Kil'Groth - KongFuZi
+140: Superman - GuanYu
+141: Lauriel - Diaochan
+142: Natalya - CaiWenJi - MeiLin
+144: Taara - ChengYaoJin
+146: Zill - HongFu - Luna
+148: pyta - JiangJiYa
+149: Xeniel - LiuBang
+150: Nakroth - HanXin
+152: Điêu Thuyền - WangZhaoJun 
+153: Batman - LanLingWang
+154: Yena - HuaMuLan
+156: Aleister - ZhangLiang
+157: Raz - BuZhiHuoWu
+162: Kriknak - NaKoruru - Nakelulu
+163: Ryoma - JuYouJing
+166: Arthur - YaSeWhang - YaSe
+167: Ngộ Không - WuKong
+168: Lumburr - Niu - NiuMoWang
+169: Slimz - HouYi
+170: Moren - LiuBei
+171: Cresh - ZhangFei
+173: Fennik - LiYuanFang
+174: Joker - YuJi
+175: Grakk - ZhongKui
+177: Lindis - ChengJiSiHan
+180: Max - NeZha
+184: Helen - Payna - CaiWenJi
+186: Teemee - TaiYiZhenRen - TiMi
+187: Arum - DongHuangTaiYi
+189: Krizzix - GuiGuZi
+190: Tulen - ZhuGeLiang
+191: Rouie - DaQiao
+192: Celica - HuangZhong - Brunhilda
+193: Amily - LaFeiEr
+194: Wiro - SuLie
+195: Enzo - BaiLiXuanCe
+196: Elsu - Elsu
+199: Eland'orr - Li
+501: Tel'Annas - Tel'Annas
+502: Astrid - Astrid - YaDianNa
+503: Zuka - Zuka
+504: Wonder Woman - WonderWoman 
+505: Baldum - Baldum
+506: Omen - DarkKnight
+507: The Flash - Flash
+508: Wisp - Zhadanren
+509: Y'Bneth - Ybneth
+510: Liliana - Liliana
+511: Ata - ZhuBaJie
+512: Rourke - Rourke
+513: Zata - ShuSheng
+514: Roxie - Roxi
+515: Richter - Richter
+518: Quillen - Quillen
+519: Annette - Annette
+520: Veres - Veres - Veras
+521: Florentino - Florentino
+522: Errol - Errol
+523: D'Arcy - Darcy
+524: Capheny - Capheny
+525: Zip - Driver
+526: Ishar - Summoner
+527: Sephera - Sephera
+528: Qi - DaMo
+529: Volkath - Volkath
+530: Dirak - Dirak
+531: Keera - Keera
+532: Thorne - Genius
+533: Laville - HouYi - Lavie
+534: Dextra - Grantwish
+535: Sinestrea - Wish
+536: Aoi - Ninja
+537: Allain - Trip
+538: Iggy - Iggy
+539: Lorion - Nott - Lorient
+540: Bright - Bright
+542: Tachi - Tachi
+543: Aya - Yao
+544: Yan - Painter
+545: Yue - Aim
+546: Terri - Hecate
+548:Bjian - SunCe
+566: Ying - 云缨
+567 - Erin
+568: Ming 
+○1052: Đặc Cảnh NYPD -0529 -01●1053: Trung Phong Cắm- 0629 - 02○1054: Thần Thoại
+        Hi Lạp - 0729 - 03
+      ○ 1062: Công Chúa Bướm - 6929 - 01●1063: Xứ Sở Thần Tiên - 6a29 - 02●1064: Tiệc
+        Bãi Biển (Recall) -
+        6b29 - 03●1065: Cô Tiên Thỏ - 6c29 - 04○1066: Phó Văn Nghệ -6d29 - 05●1067: Tiểu Yêu Nữ - 6e29 -
+        06●1068: Nữ Hoàng Thiên Nga (Component) - 6f29 - 07○1069: Thần Thoại Hy Lạp - 7029 - 08○10610: Thuỷ
+        Thủ - 7129 - 0910611: Tiệc Bánh Kẹo (Unconfirmed Skin) - 7229- 0a●10612: Lốc Xoáy 7Kinh Hoàng Tatsumaki
+        (Recall + Sprint) - 7329 - 0b10613: Skin?●10614: Nàng Tiên Nổi Loạn - 7529 - 0d
+      ○1072: Oán Linh - cd29 - 01●1074: Hiệp Sĩ Bí Ngô - cf29 - 03●1075: Dung Nham -
+        d029 - 04●1076:
+        Siêu Việt (Recall) - d129 - 05○1077: Phi Thương - d229 - 06○1078: Tư Lệnh Viễn Chinh - d329 -
+        07●1079: Hắc Vô Thường - d429 - 08●10710: Inosuke Hashibira - d529 - 09
+      ●1082: Tiệc Bãi Biển (Recall) -312a - 01○1083: Phượt Thủ -322a - 02○1084: Đại Gia
+        Học Viện - 332a -
+        03○1085: Đại Võ Sư - 342a - 04○1086: Thuyền Trưởng Râu Bạc -352a - 05●1087: Bác Học Thiên Tài - 362a
+        - 06
+      ○1092: Cô Giáo Hắc Ám - 952a - 01●1093: Goá Phụ Giả Kim - 962a - 02●1094: Nàng
+        Dơi Tuyết - 972a -
+        03●1095: Y Tá Bạo Loạn -983a - 04○1096: Thiên Nga Đen - 992a - 05●1097: Vũ Hội Bóng Đêm (Component)
+        - 9a2a - 06●1098: Kimono -9b2a - 07●1099: Vũ Điệu Samba - 9c2a - 08●10912: Nữ Hoàng Bóng Đếm - 9d2a
+        - 0b
+      ○1102: Cô Dâu Hắc Ám - f92a - 01
+        1103: Skin? - fa2a - 02●1104: Quàng Khăn Đỏ - fb2a - 03●1105: Kim Cô Giáo Chủ - fc2a - 04○1106:
+        Siêu
+        Đầu Bếp - fd2a - 05○1107: Vũ Hội Bóng Đêm - fe2a - 06
+      ●1112: Nữ Hoàng Pháo Hoa - 5d2b - 01○1113: Nữ Đặc Cảnh -5e2b - 02●1114: Phi Công
+        Trẻ - 5f2b -
+        03●1115: Mèo Siêu Quậy -602b - 04●1116: Tiệc Bãi Biển (Recall) - 612b - 05○1117: Phó Học Tập -622b -
+        06●1118: Thứ Nguyên Vệ Thần (Tower Skin + Recall) -632b - 07●1119: Pháo Hoa Neon -642b - 08●11110:
+        Đặc Dị -652b - 09●11111: Vợ Người Ta (Recall) -662b - 0a●11112: Tay Súng Siêu Phàm- 672b - 0b○11113:
+        Huy Chương Vàng (Component) - 682b - 0c●11114: Huyết Ma Thần (Recall + Sprint) - 692b - 0d●11115: Lam
+        Tước (Component) - 6a2b - 0e●11116: Thần Long Tỷ Tỷ (Recall) - 6b2b - 0f●11117: DJ Câu Hồn - 6c2b - 10
+      ○1122: Cung Thủ Bóng Đêm - c12b - 01●1123: Thế Tử Nguyệt Tộc (Recall) - c22b -
+        02●1124: Đặc Nhiệm
+        SWAT - c32b - 03●1125: Phá Vân Tiễn (Component) - c42b - 04●1126: Long Thần Soái (Recall) - c52b -
+        05●1127: Nam Thần Giáng Sinh (Component) - c62b - 06●1128: Soái Ca Học Đường - c72b - 07○1129: Thần
+        Thoại Hi Lạp - c82b - 08●11210: Lục Nguyệt Cung - c92b - 09○11212: Tiệc Bãi Biển - cb2b - 0b●11213:
+        Tư Lệnh Chiến Hạm (Recall) - cc2b - 0c
+      ○1132: Ác Mộng Sinh Hoá - 252c - 01○1134: Quang Vinh - 262c - 03
+      ○1143: Người Máy Xanh - 892c - 02○1144: Cỗ Máy Siêu Tốc - 8a2c - 03○1145: Hộ Vệ
+        Ba Bích - 8b2c - 04
+      ○1152: Đại Tư Tế - ed2c - 01●1153: Dạ Xoa Vương - ee2c - 02●1154: Hoả Nhãn Ma
+        Vương - ef2c -
+        03○1155: Kim Quang Thánh Đồ - f02c - 04
+      ○1162: Xuân Nữ Ngổ Ngáo (Component) - 512d - 01○1163: Thuỷ Thủ (Component) - 522d -
+        02●1164: Teen Nữ
+        Công Nghệ - 532d - 03●1165: Nữ Quái Nổi Loạn (Recall + Sprint) - 542d - 04●1166: Quận Chúa Đế Chế - 552d
+        - 05●1167: Đông Êm Đềm - 562d - 06●1168: Phượng Cửu Thiên (Recall + Sprint) - 572d -07●1169: Cẩm Y
+        Vệ: Chu Tước - 582d - 08●11611: Asuna Tia Chớp - 5a2d - 0b●11612: Stacia (Recall) - 5b2d - 0c●11614:
+        Gánh Anh Đến Cùng (Component) - 5c2d - 0d●11615: Kim Ngư Thần Nữ (Recall) - 5d2d - 0e
+      ○1172: Cựu Chiến Binh - b52d - 01●1174: Thông Thoả Thích - b62d - 03●1175: Giáo
+        Viên Thể Hình - b72d
+        - 04○1176: Ông Chủ KFC - b82d - 05
+      ○1182: Nhà Chiêm Tinh - 192e - 01●1183: Phi Hành Gia - 1a2e - 02●1184: Bé Gấu
+        Tuyết - 1b2e -
+        03○1185: Xứ Sở Thần Tiên - 1c2e - 04○1186: Dạ Hội - 1d2e - 05●1187: Tiểu Quỷ Bí Ngô - 1e1e -
+        06●1188: Bé Du Xuân - 1f2e - 07
+
+        1189: Skin? - 202e - 08●11810: Tiểu Tiên Tử- 212e - 0a○11811: Học Viên Điệp Phủ - 222e - 0b●11812:
+        ChiBi-Usa - 232e - 0c
+      ○1192: Hề Cung Đình - 7d2e - 01●1193: Tiệc Bánh Kẹo - 7e2e - 02●1194: Pháp Sư Mèo
+        - 7f2e -
+        03○1195: Nhà Hóa Học - 802e - 04
+      ○1202: Tiểu Thư Đoạt Hồn - e12e - 01●1203: Chị Đại Lắm Chiêu - e22e - 02●1204:
+        Tiệc Bánh Kẹo - e32e
+        - 03●1205: Kẹo Hay Ghẹo - e42e - 04●1206: Lưỡi Hái Hoàng Kim - e52e - 05○1207: Đào Tạo Siêu Sao -
+        e62e - 06●1208: Nữ Thần Ai Cập - e72e - 07●1209:Linh Xà Yêu Vũ - e82e - 08
+      ○1212: Nam Hải Yêu Hậu - 452f - 01○1213: Linh Xà Tư Tế - 462f - 02●1214: Hoả Ngọc
+        Nữ Vương - 472f -
+        03○1215: Yêu Nữ Săn Mồi - 482f - 04
+      ●1232: Ác Ma Địa Ngục - 0d30 - 01○1233: Tiệc Hoá Trang - 0e30 - 02●1234: Samurai
+        Tử Sĩ - 0f30 -
+        03●1235: Đại Tướng Rô Bốt (Recall) - 1030 - 04●1236: Ông Kẹ Bí Ngô - 1130 - 05○1237: Ác Nhân Vô
+        Tuyến - 1230 - 06●1238: Vũ Hội Bóng Đêm - 1330 - 07
+      ○1242: Hoả Thuật Sư - 7130 - 01○1243: Quang Vinh - 7230 - 02●1244: Bắc Băng Vương
+        - 7330 -
+        03○1245: Thầy Tế Mặt Trời - 7430 - 04○1246: Thần Mặt Trời - 7530 - 05
+      ○1262: Cận Vệ Hoàng Gia -3931 - 01○1263: Quang Vinh - 3a31 - 02●1264: Tà Linh
+        Hiệp Sỹ - 3b31 -
+        03○1265: Chiến Binh Cổ Đại - 3c31 - 04
+      
+        1272: Hoàng Tử Cát (Unconfirmed Skin) - 9d31 - 01○1273: Linh Hồn Lữ Khách - 9e31 - 02●1274: Ghẹo Hay Kẹo
+        - 9f31 - 03●1275: Quỷ Diện Lãng Khách - a031 - 04
+      ●1282: Tiệc Bãi Biển - 0132 - 01●1283: Nam Vương - 0232 - 02○1284: Long Kỵ Sĩ -
+        0332 - 03○1285:
+        Kỵ Sĩ Âm Phủ - 0432 - 04●1286: Đặc Nhiệm SWAT - 0532 - 05●1287: Tư Lệnh Robot (Recall) - 0632 -
+        06○1288: Hoả Long Chiến Thần - 0732 - 07●1289: Ichigo Kurosaki - 0832 - 08●12810: Thần Ngọc -0932 -
+        09●12811: Vũ Điệu Samba - 0a33 -0a
+      ●1292: Chiến Binh Công Nghệ (Component) - 6532 - 01○1293: Đoạt Mệnh Thương - 6632 -
+        02●1294: Quý
+        Công Tử - 6732 - 03●1295: Dũng Sĩ Đồ Long - 6732 - 04○1296: Quang Vinh - 6932 - 05●1297: Chiến Tướng
+        Mùa Đông - 6a32 - 06●1298: Kỵ Sĩ Tận Thế (Recall) - 6b32 - 07●1299: Cẩm Y Vệ: Hoả Long- 6c32 - 08
+      ●1302: Thích Khách -c932 - 01○1303: Ninja Xanh Lá- ca32 - 02○1304: Quái Xế Công
+        Nghệ - cb32 -
+        03●1305: Cấm Vệ Nguyệt Tộc - cc32 - 04●1306: Kiemono (Recall) - cd32 - 05●1307: Bạch Kiemono
+        (Recall) - ce32 - 06○1308: Phó Kiếm Đạo - cf32 - 07●1309: Tiệc Bãi Biển (Component) - d022 -
+        08●13010: Mỵ Hồ - d132 - 09●13011: Đặc Công Tử Diệp - d232 - 0a●13012: Bích Hải Thánh Nữ (Recall +
+        Sprint) + d332 - 0b○13013: Lễ Hội Mùa Xuân (Component) - d432 - 0c●13014: Thánh Nữ Xiêm La - d532 -
+        0d●13016: Thứ Nguyên Vệ Thần – Dimebreaker - d732 - 0f (Recall + Movie)
+      ○1312: Thợ Săn Tiền Thưởng - 2d33 - 01●1313: M-TP Thần Tượng Học Đường - 2e33 -
+        02●1314: Đồ Thần Đao
+        - 2f33 - 03●1315: Siêu Việt (Recall) - 3033 - 04○1316: Thiên Tài Sân Cỏ - 3133 - 05○1317: Điệp Viên
+        Anubis - 3233 - 06●1318: Đặc Dị - 3333 - 07●1319: Siêu Việt 2.0 (Recall) - 3433 - 08●13110: Chí Tôn
+        Thần Kiếm -3533 - 09●13111: Dược Sĩ Tình Yêu (Component) - 3633 - 0a●13112: Byakuya Kuchiki - 3733 -
+        0b●13113: Zenitsu Agatsuma (Recall) - 3833 - 0c●13114: Thích Khách Sa Mạc - 3933 - 0d●13115: Quang Vinh
+        - 3a33 - 0e●13116: SSM_ 51 - 3b33 - 0f●13117: Tuyệt Thế Thần Bình (Recall) - 3c33 - 10
+      ○1322: Bạch Ảnh - 9133 - 01●1323: Chiến Binh Trăng Khuyết - 9233 - 02●1324: Ngân
+        Lang - 9333 -
+        03●1325: Tử Thần Vũ Trụ (Recall) - 9433 - 04●1326: Quỷ Diện - 9533 - 05●1327: Kim Ưng Sát Thủ - 9633
+        - 06○1328: Bạch Lang - 9733 - 07●1329: Bạch Vô Thường - 9833 - 08●13210: Bóng Người Dưới Trăng -
+        9933 - 09●13211: Tu Di Thánh Đế(Recall,Sprint,Intrinsic) - 9a33 - 0a
+      ○1332: Hoàng Tử Quạ -f533 - 01●1333: Vũ Khí Tối Thượng - f633 - 02●1335: Đại Công
+        Tước -f833 -
+        04○1336: Quang Vinh -f933 - 05○1337: Số 7 Thần Sầu -fa33 - 06●1338: Khiêu Chiến - fb33 -
+        07●1339: Cá Mập "Nghiêm Túc" - fc33 - 08●13310: Hoàng Tử Băng - fd33 - 09●13311: Thần Tài - fe33 -
+        0a●13312: Xạ Thần Kagutsuchi (Recall + Component) - ff33 - 0b
+      ○1343: Sơn Tặc - de37 - 02○1344: Quang Vinh - df37 - 03●1345: Tà Linh Ma Tướng -
+        e037 - 04○1346:
+        Mafia - e137 - 05○1347: Tiệc Bãi Biển - e237 - 06
+      ○1352: Kẻ Huỷ Diệt - bd34 - 01
+
+        1353: Hiệp Sĩ Hoàng Kim (Unconfirmed Skin) - be34 - 02○1354: Quang Vinh - bf34 - 03●1355: Mật Vụ - c034
+        - 04○1356: Bác Ong Bay Vừa - c134 - 05
+      ○1362: Nữ Chúa Tuyết - 2135 - 01●1363: Thần Mặt Trời - 2235 - 02●1364: Hồng Hoa
+        Hậu - 2335 -
+        03●1365: Thiên Nữ Áo Dài - 2435 - 04○1366: Nữ Hoàng Khí Giới - 2535 - 05○1367: Diva Nổi Loạn - 2635
+        - 06●1368: Khải Huyền Thiên Hậu - 2735 - 07
+      ○1372: Khúc Nhạc Tử Vong - 8535 - 01○1373: Phi Vụ Thế Kỷ - 8635 - 02●1374: Công
+        Tước Máu - 8735 - 03
+      ○1392: Cảnh Vệ Biển - 4d36 - 01○1393: Quang Vinh - 4e36 - 02
+      ○1402: Chúa Tể Công Lý -b136 - 01●1403: Bất Công Lý - b236 - 02
+      ○1412: Đoạ Lạc Thiên Sứ - 1537 - 01●1413: Hoả Phượng Hoàng - 1637 - 02●1414: Phù
+        Thuỷ Bí Ngô - 1737
+        - 03●1415: Thánh Quang Sứ (Recall) - 1837 - 04●1416: Hoa Khôi Giáng Sinh - 1937 - 05●1417: Lạc Thần
+        - 1a37 - 06●1418: Tinh Vân Sứ (Recall) - 1b37 - 07●1419: Tiệc Bãi Biển - 1c37 - 08●14110: Thiên Sứ
+        Công Nghệ (Recall) - 1d37 - 09●14111: Phi Thiên (Recall) - 1e37 - 0a●14112: Thứ Nguyên Vệ Thần (Crystal
+        Tower Skin + Recall + Sprint) - 1f37 - 0b
+
+        14113: Skin? - 2037
+
+        14114: Skin? - 2137●14115: Nữ Vương Học Đường - 2237 - 0e●14116: Đôi Cánh Nguyệt Thực - 2337 - 0f●14117: Vũ Khúc Miêu Ảnh - 2437 - 10
+      ●1422: Mị Muốn Đi Chơi - 7937 - 01●1423: Nghệ Nhân Lân - 7a37 - 02○1424: Quý Cô
+        Thuỷ Tề - 7b37 -
+        03●1425: Phó Nháy Nhí Nhảnh - 7c37 - 04●1426: Quà Quái Quỷ - 7d37 - 05●1427: Nghiệp Hoả Yêu Hậu
+        (Recall) -7e37 - 06●1428: Băng Tâm Thần Nữ - 7f37 - 07●1429: Nữ Quái Công Nghệ - 7a37 - 08●14210:
+        Nghệ Sĩ Ma Mị - 7b37 - 09
+      ●1442: Đại Tù Trưởng - 4138 - 01●1443: Lam Hải Chiến Nữ - 4238 - 02●1444: Hoả
+        Ngọc Nữ Đế - 4338 -
+        03●1445: Tiệc Bãi Biển - 4438 - 04●1446: Hồng Môn Đường Chủ - 4538 - 05○1447: Tư Lệnh Hải Âu - 4638
+        - 06
+      ○1462: Lốc Địa Ngục - 0939 - 01●1463: Dung Nham - 0a39 - 02●1464: Cựu Thần Thiên
+        Hà - 0b39 -
+        03●1465: Diệt Nguyệt Tử Sĩ - 0c39 - 04○1466: Thần Mộng Mị - 0d39 - 05●1467: Phong Thần Tu La
+        (Component) - 0e39 - 06
+      ○1482: Không Tặc - d139 - 01●1483: Băng Hoả Long Sư - d239 - 02○1484: Phi Cơ F1
+        (Component) - d339 -
+        03
+      ○1492: Thiên Sứ Huỷ Diệt -353a - 01○1493: Trung Vệ Thép - 363a - 02○1494: Kim Sí
+        Điểu - 373a -
+        03●1495: Ma Sứ Tận Thế - 383a - 04●1496: Tống Lãnh Tinh Hệ - 393a - 05○1497: Thần Thoại Hy Lạp -
+        3a3a - 06
+      ●1502: Chiến Binh Hoả Ngục - 993a - 01○1503: Quân Đoàn Địa Ngục - 9a3a - 02●1504:
+        Bboy Công Nghệ -
+        9b3a - 03●1505: Siêu Việt (Recall + Sprint) - 9c3a - 04●1506: Khiêu Chiến - 9d3a - 05●1507: Quán
+        Quân - 9e3a - 06●1508: Lôi Quang Sứ (Recall) - 9f3a - 07●1509: Tiệc Bãi Biển - a03a - 08●15010: Thứ
+        Nguyên Vệ Thần (Blue Red Skin + Recall + Sprint) - a13a - 09●15013: Killua - a43a - 0c
+      ○1522: Nữ Vương Anh Đào - 613b - 01●1523: Tiệc Bãi Biển -623b - 02○1524: Nữ Y Tá
+        -633b -
+        03●1525: WaVe: Diamonds (Recall) - 643b - 04●1526: Hoa Hậu - 653b - 05●1527: Phù Thủy Bí Ngô -663b -
+        06○1528: Vũ Điệu Nghê Thường - 673b - 07●1529: Tà Linh Pháp Trượng (Component)- 683b - 08●15210: Mèo
+        Công Nghệ - 693a - 09●15211: Thần Ngọc (Component) - 6a3b - 0a●15212: Thất Tịch Tiên Tử (Recall) - 6b3b
+        - 0b●15213:Usagi(Recall) -6c3b - 0c
+      ○1533: Đôi Cánh Đại Dương - c63b●1534: Dơi Địa Ngục - c73b
+      ○1542: Khuyên Bạc - 293c●1543: Thỏ May Mắn (Component) - 2a3c●1544: Chiến Binh
+        Nguyệt Tộc -
+        2b3c○1545: Hoạt Náo Viên - 2c3c○1546: Nữ Hoàng Thể Thao - 2d3c●1547: Dạ Nguyệt Thánh Nữ -
+        2e3c●1548: Giảng Viên Tình Ái - 2f3c○1549: Nữ Cướp Biển - 303c●15410: WaVe: Flame (Component +
+        Recall) - 313c●15411: Vũ Điệu Giáng Sinh - 323c - 0a
+      ○1562: Thiếu Niên Hắc Ám - f13c○1563: Quang Vinh - f23c●1564: Quỷ Soái Nguyệt Tộc
+        - f33c●1565:
+        Siêu Sao Bóng Rổ (Component) - f43c○1566: Xứ Sở Thần Tiên - f53c○1567: Tư Lệnh Viễn Chinh -
+        f63c●1568: Âm Dương Sư (Component) -f73c○1569: Ảo Thuật Gia -f83c●15610: ?●15611:Đặc Vụ Thần
+        Thám -fa3c - 0a
+      ○1573: Đại Tù Trưởng - 563d●1574: Băng Quyền Quán Quân - 573d●1575: Chiến Thần
+        Muay Thái (Recall) -
+        583d●1576: Siêu Việt (Recall) - 593d●1577: Siêu Cấp Tin Tặc (Component) - 5a3d○1578: Saitama
+        (Component) - 5b3d●1579: Mãnh Lôi Thần Quyền - 5c3d●15710: Siêu Sao Bóng Đá (Recall) -5d3d - 09
+      ○1622: Bọ Cánh Bạc - 493f●1623: Yêu Trùng Cổ Mộ - 4a3f●1624: ST.L-162 -
+        4b3f○1625: Bọ Cánh Cam -
+        4c3f
+      ○1632: Thợ Săn Tiền Thưởng - ad3f●1633: Đại Tướng Nguyệt Tộc - ae3f●1634: Thanh
+        Long Bang Chủ -
+        af3f●1635: Samurai Huyền Thoại (Recall) - b03f○1636: Dạ Hội - b13f●1637: Chiến Binh Cyborg -
+        b23f●1638: Ultraman (Recall + Sprint) - b33f●1639: Đặc Nhiệm Giáng Sinh -b43f
+      ○1662: Hoàng Kim Cốt - d940●1663: Lãnh Chúa Xương - da40●1664: Si Tình Kiếm -
+        db40○1665: Siêu
+        Sao Cricket - dc40●1666: Đặc Cảnh Băng Lôi - dd40●1667: Chiến Binh Trăng Khuyết - de40●1668: Siêu
+        Việt (Recall) - df40●1669: Chiến Binh Trăng Máu - e040●16610: Tôn Hổ Vô Song - e140
+      ○1672: Đạo Tặc - 3d41●1673: Hoả Nhãn Kim Tinh - 3e41●1674: Siêu Việt (Recall) -
+        3f41●1675: Ngộ
+        Khá Trẩu - 4041●1676: Siêu Việt 2.0 (Recall) - 4141●1677: Đặc Vụ Băng Hầu - 4241●1678: Nhóc Tì Bá
+        Đạo (Component + Recall + Sprint) - 4341●1679: Tề Thiên Ma Hầu - 4441○16710: Cổ Thần Ai Cập -
+        4541●16711: Tân Niên Võ Thần(Recall + Effects Kill) - 4641 - 0a●16712: Robot (HOK) - (Recall) - 4741 -
+        0b
+      ○1683: Dung Nhamh -a241●1684: Cự Thần Viễn Cổ - a341○1685: Máy Đào Khoáng - a441
+      ○1692: Thỏ Thợ Mỏ - 0542●1693: Chú Thỏ Ngọc - 0642○1694: Thần Tiên -
+        0742○1695: Thỏ Nhồi Bông -
+        0842●1696: Giấc Mơ Trưa - 0942
+      ○1702: Anh Thợ Điện - 6942●1703: Lính Cứu Hoả - 6a42○1704: Binh Nhì - 6b42
+      ○1712: Thợ Sửa Cáp - cd42●1713: Cá Cắn Cáp - ce42●1714: Đại Sư Sushi - cf42
+      ○1732: Nhà Thám Hiểm - 9543○1733: Đội Đặc Nhiệm - 9643●1734: Tiệc Bánh Kẹo -
+        9743●1735: Tuần Lộc
+        Láu Lỉnh - 9843●1736: Phi Hành Gia - 9943○1737: Tay Đua F1 (Component) - 9a43○1738: Shipper Siêu
+        Thanh - 9b43
+      ○1742: Trò Đùa Tử Vong - f943●1743: Vua Hề - fa43
+      ●1752: Thuyền Trưởng Râu Đỏ - 5d44○1753: Khô Lâu Đại Tướng - 5e44●1754: Chàng Gấu
+        Tuyết -
+        5f44●1755: Đi Vào Lòng Đất - 6044●1756: Mèo "Thần Tài" - 6144○1757: Sumo - 6244●1758: Tiệc Bãi
+        Biển - 6344○1759: Màu Cờ Sắc Áo - 6444○17510: Vũ Điệu Samba - 6544○17511: Cỗ Xe Tăng -
+        6644●17513: Cận Vệ Mafia - 6744
+      ○1772: Thám Tử Tư - 2545●1773: Quang Thánh Tiễn - 2645○1774: Quang Vinh -
+        2745●1775: Nữ Vương
+        Pháo Hoa (Component) - 2845○1776: Dạ Tiệc - 2945○1777: Đồng Phục Shihakusho - 2a45●1779: Đặc Vụ Thần
+        Thám - 2b45
+      ○1802: Hiệp Sĩ Nhí -5146○1803: Găng Tay Vàng - 5246○1804: Quang Vinh -
+        5346●1805: Thần Đồng Sinh
+        Hoá - 5446○1806: Thần Thoại Hy Lạp - 5546
+      
+        1842: Skin? - e147○1844: Ngủ Trong Rừng - e247●1845: Hotgirl Trà Sữa - e347●1846: Hồng Liên Tiên Tử
+        - e437
+      ○1862: Xiếc Cung Đình - a948○1864: Tay Đua Siêu Tốc (Component) - ab48○1865: Thần
+        Thoại Hy Lạp -
+        ac48○1866: Thịt Xiên Nướng - ad48
+      ○1872: Thú Vệ Cổ Mộ - 0d49●1873: Vũ Khúc Long Hổ (Recall) - 0e49●1874: Linh Tượng
+        Vu Nữ -
+        0f49●1875: Vũ Khúc Thần Sứ (Recall) - 1049●1876: Thỏ May Mắn - 1149●1877: Nữ Hoàng Gấu Xám -
+        1249●1879: Quản Lí Tài Năng - 1449
+      ○1892: Cún Siêu Quậy - d549○1893: Đội Đặc Nhiệm - d649○1894: Nghệ Sĩ Đường Phố -
+        d749
+      ○1902: Nhà Thám Hiểm - 394a●1903: Tân Thần Thiên Hà (Recall) - 3a4a○1904: Phù
+        Thuỷ Kiến Tạo -
+        3b4a●1905: Đông Êm Đềm - 3c4a○1906: Phó Kỷ Luật - 3d4a●1907: Tân Thần Hoàng Kim (Recall) -
+        3e4a●1908: Chí Tôn Kiếm Tiên (Recall + Sprint) - 3f4a○1909: Dạ Hội - 404a●19010: Thần Sứ STL-79
+        (Component + Recall) - 414a●19011: Hoả Thần Long Tộc (Component) - 424a●19012: Đại Úy Athanor -
+        434a●19013: Tân Niên Vệ Thần (Recall) - 444a●19014:Tiêu Dao Vũ Thần(Recall + Movie + Shownode) - 454a
+      ○1912: Sứ Giả Vũ trụ - 9d4a●1913: Công Chúa Hoả Long (Component) - 9e4a○1914:
+        Tuần Lộc Đáng Yêu
+        -9f4a○1915: Vẹt Cầu Vồng - a04a○1917: Quang Vinh (Component) - a14a
+      ○1922: Nữ Cao Bồi - 014b●1923: Đếm Cừu (Component) - 024b
+
+        1924: Skin?
+      ○1932: Đặc Cảnh NYPD - 654b●1933: Đặc Công Nhện Đỏ - 664b●1934: Thư Ký -
+        674b●1935: Thỏ May Mắn
+        - 684b●1936: Võ Thần Thiên Hà - 694b○1937: Hội Ám Hoàng (Component) - 6a4b○1938: Nữ Đội Trưởng -
+        6b4b
+      
+        1942:Tiệc Bãi Biển - 01 (Coming Soon)
+        1943:Thứ Nguyên Vệ Thần - 02 (Coming Soon)
+      ○1952: Phẩm Chất Quý Tộc - 2d4c●1953: Chiến Binh Trăng Khuyết - 2e4c○1954: Thần
+        Thoại Hi Lạp -
+        2f4c○1955: Leo Núi Tuyết - 304c●1956: Hồng Hạc Thị Vệ - 314c○1957: Sát Quỷ Đoàn - 324c
+      ○1962: Cảnh Vệ Thảo Nguyên - 914c○1963: Mafia - 924c●1964: Guitar Tình Ái
+        (Recall) - 934c●1965:
+        Chiến Binh Bóng Tối - 944c●1966: Sứ Giả Tận Thế (Recall) - 954c○1967: Tuyết Ưng - 964c●1968: Xạ Thủ
+        Tinh Linh - 974c●19610: Trấn Thiên Phi Hồ - 994c(Recall - Movie)
+      ○1992: Soái Tặc - bd4d○1993: Phi Vụ Thế Kỷ - be4d○1994: Học Viện Carano -
+        bf4d●1995: Siêu Thám
+        Tử - c04d●1996: Chú Ong Bay Cao (Component) - c14d
+      ○5012: Cảnh Vệ Rừng - b5c3●5013: Giám Thị Thân Thiện - b6c3●5014: Chung Tình Tiễn
+        - b7c3○5015:
+        Thánh Nữ Mật Hội -b8c3●5016: Thần Sứ F.E.E-X1 (Recall) - b9c3●5017: Cẩm Y Vệ: Phi Ưng - bac3○5018:
+        Dạ Hội - bbc3●5019: Thứ Nguyên Vệ Thần (Soldier Skin + Recall + Sprint) - bcc3
+
+        50110: Skin? -bdc4●50111: Công Chúa Mộng Mơ - bec3 -.0a●50112: Vũ Khúc Yêu Hồ (Recall) - bfc3 -
+        0b●50113: Tân Niên Vệ Thần (Recall + Sprint) - c0c3 - 0c●50114: Nghìn Lẻ Một Đêm - c1c3 - 0d●50115:
+        Quang Vinh (Component) - c2c3 - 0e
+      ○5022: Bạch Kiếm Tiểu Thư - 19c4●5023: Siêu Sao Bóng Chày - 1ac4○5024: Tổ Trưởng
+        Học Đường -
+        1bc4○5025: Thần Thoại Hy Lạp - 1cc4○5026: Tổng Tài - 1dc4●5027: Thần Trí Tuệ -1ec4
+      ●5032: Khúc Khôn Cầu (Uncorfirmed Skin) - 7dc4 - 01○5033: Đại Phú Ông - 7ec4 -
+        02●5034: Giáo Sư Sừng
+        Đỏ - 7fc4 - 03○5035: Phát Tài - 80c4 - 04●5036: Gấu Nhồi Bông - 81c4 - 05●5037: Diệt Nguyệt Nguyên
+        Soái -82c4 - 06○5038: Đầu Bếp Hoàng Cung -83c4 - 07●5039: Mãnh Hổ -84c4 - 08●50310: Rapper Big Panda
+        - 85c4 - 09
+      ○5042: Thế Chiến - e1c4
+      ○5052: Thợ Sửa Ống Nước - 45c5●5053: Liệt Hoả Dung Nham - 46c5○5054: Thần Thoại
+        Hy Lạp -
+        47c5○5055: Thế Giới Kẹo Ngọt - 48c5
+      ○5062: Sĩ Quan Viễn Chinh - a9c5●5063: Ám Tử Đao - aac5●5064: Quỷ Nguyệt Tướng -
+        abc5●5065: Đao
+        Phủ Tận Thế (Recall) - acc5●5066: Chiến Binh Trăng Khuyết - adc5○5067: Thuyền Trưởng Hải Tặc -
+        aec5●5068: Nhạc Sĩ Huyền Thoại (Component) - afc5●5069: Quái Kiệt Guitar - b0c5
+      ●5072: Tia Chớp Tương Lai - 0dc6
+      ○5082: Hải Tặc Nhí - 71c6●5083: Thỏ Siêu Quậy - 72c6●5084: Ếch Nhồi Bông - 73c6
+
+        5085: Skin? - 74c6●5086: Máy Phát Quà - 75c6○5087: Rồng Đi Bộ? - 77c6○5088: Cô Bé Bút Chì - 78c6
+      ○5092: Hạt Trưởng Kiểm Lâm - d5c6○5093: Chiến Binh Lục Bảo - d6c6
+      ○5102: Hồ Quí Phi - 39c7●5103: Thần Tượng Âm Nhạc - 3ac7●5104: Nguyệt Mị Ly
+        (Recall) -
+        3bc7●5105: Tiểu Thơ Anh Đào (Recall) - 3cc7●5106: Tân Nguyệt Mị Ly (Recall) - 3dc7●5107: Nữ Thần F1
+        - 3ec7●5108: Tiệc Bãi Biển - 3fc7○5109: Thủy Thủ Hồ Ly - 40c7●51010: WaVe: Oscillator (Component +
+        Recall) - 41c7
+      ○5112: Tân Thuỷ Thủ - 9dc7○5113: Cao Bồi - 9ec7○5114: Quang Vinh (Component) -
+        9fc7○5115: Mèo Đi
+        Mưa - a0c7
+
+        5116: Skin? - a1c7
+      ○5122: Pháo Thủ Tuộc Neo - 01c8●5123: Biệt Đội Siêu Hùng - 02c8○5124: Cuồng Tặc -
+        03c85125: Skin? - 04c85126: Skin? - 05c8
+      ○5132: Tư Lệnh Viễn Chinh - 65c8 - 01●5133: Sứ Giả Tinh Hệ - 66c8 - 02●5134: Thần
+        Mặt Trời -67c8 -
+        03●5135: Khiêu Chiến - 68c8 - 04●5136: Tác Gia Đương Đại (Recall) - 69c8 - 05●5137: Chí Tôn Tà
+        Phượng(Recall) - 6ac8 - 06
+      ○5142: Thám Tử Tập Sự - c9c8●5143: Kèn Ái Tình - cac8○5144: Hầu Gái - cbc8○5145: Tiệc Bánh Kẹo - ccc8○5146: Cháy Phố - cdc8○5147: Lễ Hội Hoa - cec8○5152: Bá Tước - 2dc9●5153: Thống Soái Kháng Chiến (Component) - 2ec9○5154: Dạ Hội - 2fc9●5155: Thần Kiếm Susanoo (Recall) - 30c9●5157: Nguyện Loan Đao - 31c9○5182: Trưởng Ngoại Khoa - 59c●5183: Đặc Công Mãng Xà (Recall) -5aca●5184: Thống Soái Đế Chế (Component) - 5bca●5185: Huyết Thủ Nguyệt Tộc - 5cca○5186: Sao Đỏ Học Đường -5dca●5187: Tà Linh Ma Đao - 5eca●5188: Hoàng Kim Soái Vương (Component) - 5fca●5189: Nghịch Thiên Long Đế (Recall) - 60ca●51810: Người Gác Đền -61ca○5192: Nữ Quản Ga - bdca○5193: Xứ Sở Thần Tiên - beca●5194: Thần Tượng Âm Nhạc - bfca●5195: Tiệc Bãi Biển - c0ca●5196: Phi Hành Gia (Component) - c1ca○5197: Vân Mộng Tiên Tử - c2ca○5198: Nữ Sinh Trung Học - c3ca●5199: Chị Ong Bay Thấp - c4ca○5202: Đạo Tặc - 21cb●5203: Gián Điệp Tinh Hệ - 22cbb○5204: Thần Thoại Hy Lạp - 23cbb○5205: Chị Đại Học Đường - c4cbb●5206: Khải Huyền: Dịch Bệnh (Unconfirmed Skin) - c5cbb●5207: Thuỷ Thần Kiều Diễm - 26cbb●5208: Kimono (Recall + Component) - 27cbb●5209: Phù Thủy Trang Điểm (Component) - 28cbb●52010: Tiệc Bãi Biển - 29cb○5212: Vũ Kiếm Sư - 85cb●5213: Giám Sát Tinh Hệ - 86cb○5214: Kiếm sĩ Olympic - 87cb○5215: Thần Thoại Hi Lạp - 88cb●5216: Seven (Recall) - 89cb●5217: Tà Long Kiếm Sĩ - 8acb○5218: Xứ Sở Thần Tiên - 8bcb●5219: Bá Vương Âm Nhạc (Recall) - 8ccb52110: Skin? - 8dcb○5222: Vượt Ngục - e9cb●5223: Diệt Nguyệt Tiên Phong - eacb5224: Quái Vật Cương Thi (Unconfirmed Skin) - ebcb●5225: Genos (Recall) - eccb●5226: Huyết Thủ Tu La - edcb●5227: Stream Đến Bao Giờ - eecb○5232: Nam Tước - 4dcc●5233: Đô Đốc Tinh Hệ - 4ecc●5234: Pháp Sư Hoả Long - 4fcc●5235: Tiến Sĩ Thiên Tài - 50cc○5242: Hầu gái - b1cc●5243: Thần tượng âm nhạc - b2cc●5244: Toán Hoá Sinh (Component) - b3cc●5245: Kimono (Recall) -b4cc●5246: Siêu Cấp Tin Tặc - b5cc●5247: Phi Hành Gia -b6cc●5248: Harley Quinn (Recall + Component)-b7cc●5249: Quân Nhạc Mildar - b8cc52410: Skin? - b9cc●52411: Tử Đinh Hương - bacc
+        ○5252: Gà Siêu Quậy - 15cd○5253: Tiểu Đệ Hổ Báo - 16cd○5254: Cá Siêu Quậy - 17cd●5255: Gà Siêu Cấp - 18cd○5256: Vua Sân Cỏ - 19cd○5262: Giấc Mơ Ngọt Ngào - 79cd●5263: Tiểu Thư Kẹo Ngọt - 7acd○5264: Tiểu Thư Gấu Trúc - 7bcd○5265: Lễ Hội Ma Quái - 7ccd●5266: Siêu Hacker - 7dcd○5267: Vũ Điệu Samba - 7ecd●5268: Rồng Bé Bự - 7fcd ○5272: Quý Tiểu Thư - 83cd●5273: Chiêm Tinh Gia - 84cd●5274: Thần Tượng Âm Nhạc - 85cd○5275: Phi Vụ Thế Kỉ - 86cd○5276: Thần Thoại Hi Lạp - 87cd●5277: Lam Hải Phu Nhân -88cd●5278:Thủy Liên Hoa - 89cd●Học Viện - 8acd● Bách Nhạn Ngân Linh - 8bcd○5282: Tiểu Long - 41ce●5283: Đặc Vụ Cáo Tuyết - 42ce●5284: Quán Quân - 43ce○5285: Thiếu Nữ Pháo Hoa (Component) - 44ce○5286: Blogger Ẩm Thực - 45ce●5287: Búp Bê Daruma - 46ce
+        ○5292: Dạ Huyết Tộc - a5ce●5293: Ma Kỵ Tử Sĩ - a6ce●5294: Xung Thiên Thần Tướng - a7ce○5295: Tư Lệnh Viễn Chinh - a8ce●5296: Chiến Thần Ai Cập (Component) - a9ce○5302: Cảnh Vệ Bầu Trời - 09cf●5303: Chiến Binh Trăng Khuyết - 0acf○5304: Quý Tộc Norman (Component) - 0bcf●5306: Ông Bầu Showbiz - 0ccf●5308: Thưởng Hạng S2-2023○5312: Y Tá Lạ - 6dcf○5313: Học Viện Carano - 6ecf●5314: Sát Thủ Bí Ngô - 6fcf○5315: Thủy Thủ - 70cf●5316: Tiệc Bãi Biển (Component) - 71cf5317: Skin? - 72cf●5318: Nezuko Kamado (Recall) - 73cf○5319: Nghệ Sĩ Grafity - 74cf○5322: Cận Vệ Hoàng Gia - d1cf●5323: Giả Kim Thuật Sư (Component) - d2cf●5324: Quán Quân - d3cf●5235: Tiệc Bãi Biển - d4cf○5332: Tay Đua Đường Phố - 35d0●5333: Tay Súng Diệt Thần - 36d0○5334: Tay Súng Vô Địch (Component) - 37d0●5335: Xạ Thần Tinh Vệ (Recall) - 38d0●5336: Kim Quy Thần Vương - 39d0●5337: Tiệc Bãi Biển (Component) - 3ad0●5338: Sắc Màu Holi - 3bd0●5339: Chiến Thần MOBA (Recall) - 3cd0○5342: Chiến Binh Quyến Rũ - 99d0●5343: Quận Chúa Tuyết - 9ad05344: Sát Thủ Nguyệt Tộc (Unconfirmed Skin) - 9bd0○5335: Quý Cô Tuổi Dần - 9cd0○5352: Giấc Mơ Trưa - fdd0●5353: Tiểu Thư Băng Giá - fed0●5354: WaVe: Dark Currents (Recall + Component) - ffd0●5345: Điệp Viên Cánh Cụt - 00d1●5348: Đại Tiểu Thư - 03d1●5349: Tiểu Thư Bóng Đêm - 04d1○53410: Lữ Khách Sa Mạc - 05d1○5362: Sát Thủ Đô Thị - 61d1●5363: Hoàng Kim Công Chúa (Component) - 62d15364: Skin? - 63d1○5365: Tiệc Bãi Biển - 64d1●5366: Lam Hải Quận Chúa (Component) - 65d1●5367: Tiểu Thư Mafia (Component) - 66d1●5372: Hắc Kiếm Sĩ Kirito (Recall) - c5d1●5373: Kirito (Recall) - c6d1●5374: Tuyết Sơn Song Kiếm (Recall) - c7d1●5375: Thần Mặt Trời (Component) - c8d1●5376: Bạch Kiếm Sĩ - c9d1○5382: Tiểu Hoàng Đế - 29d2●5383: Thần Miêu Thiếu Chủ - 2ad2○5384: Bạch Hồ Ly - 2bd2○5385: Đệ Nhất Mĩ Nam - 2cd2○5392: Chiến Giáp Hắc Ám - 8dda●5393: Hỏa Vân Tà Thần - 8eda●5394: Quân Vương Bóng Tối - 8fda●5395: Quân Vương Ánh Sáng - 90da○5402: Soái Ca Thánh Điện - f1d2●5403: Toshiro Hitsugaya (Recall) - f2d2●5404: Khiêu Chiến - f3d2●5405: Mật Vụ Hacker (Component) - f4d2○5407: Kì Lân Soái - f6d2○5422: Lãng Khách - b9d3
+●5443: Đao Khách Vô Tình - bad3●5444: SSM 59 - bbd3○5432: Hoạt Náo Viên - 1dd4●5433: Điệp Viên Kí Ức - 1ed4●5434: MC Sóc Nhỏ (Component) - 1fd4○5435: Thủy Thủ - 20d4●5442: Nhà Chế Tác - 81d4●5443: Kamado Tanjiro (Recall) - 82d4●5444: Công Tước Norman - 83d4○5452: Tiểu Công Chúa - e5d4●5454: Chiêm Tinh Gia  - e7d4●5455: SSM 59 - e8d4●5462: Tiểu Kỳ Lân - 49d5●5464: Thuyền Trưởng Hải Tặc - 4bd5○ 5482: Chiến Binh Sa Mạc - 11d6●5483:Hoàng Kim Cơ Giáp  (HOK COLLAB) - 12d6●5485: Kình Thiên Long Kỵ (Recall) - 14d6Coming Soon.....Coming Soon....5682: Quẻ Nghi Quyết ( Coming Soon)  

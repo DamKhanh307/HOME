@@ -63,6 +63,18 @@ body {
 #uploadbtn[type='file']{
     display:none;
 }
+/* Thêm vào file style.css của bạn */
+#play i {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#play.playing i {
+    transform: scale(1.2); /* Phóng to biểu tượng khi đang phát */
+    color: white; /* Thay đổi màu sắc khi đang phát */
+}
+.fa-solid {
+    transition: transform 0.3s ease-in-out;
+}
 audio{
     display: none;
 }

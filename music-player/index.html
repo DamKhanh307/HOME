@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../mp.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +24,7 @@
             <input type="range" id="progress">
             <div class="main-control">
                 <div id="back"><i class="fa-solid fa-forward"></i></div>
-                <div id="play"><i class="fa-solid fa-play"></i></div>
+                <div id="play"><i class="fa-solid fa-play" style="transition: all 1000ms ease-in-out;"></i></div>
                 <div id="next"><i class="fa-solid fa-backward"></i></div>
             </div>
         </div>
@@ -104,10 +105,12 @@
                     // Nếu âm thanh đang dừng hoặc đã kết thúc, phát bắt đầu từ đầu
                     audioPlayer.play();
                     playButton.innerHTML = '<i class="fa-solid fa-pause"></i>'; // Thay đổi biểu tượng thành nút tạm dừng
+                    playButton.classList.add('playing'); // Thêm class để kích hoạt hiệu ứng chuyển đổi
                 } else {
                     // Nếu âm thanh đang phát, tạm dừng
                     audioPlayer.pause();
                     playButton.innerHTML = '<i class="fa-solid fa-play"></i>'; // Thay đổi biểu tượng thành nút phát
+                    playButton.classList.remove('playing'); // Xóa class để quay trở lại trạng thái bình thường
                 }
             });
             // Update progress input when audio time is updated
