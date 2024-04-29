@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search ID</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../elaina_symbol.png" type="image/x-icon">
+    <title>AOV List ID</title>
 </head>
 
 <body>
-    <input type="text" id="search" onkeyup="SearchID()">
-    <ul id="results"></ul>
+    <div class="container">
+        <h1 class="title">AOV LIST HERO SKIN</h1>
+        <input type="text" id="search" class="search-input" onkeyup="SearchID()" placeholder="Enter ID...">
+        <ul id="results" class="results-list"></ul>
+    </div>
 
     <script>
         let allEntries = new Map();
