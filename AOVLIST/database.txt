@@ -188,7 +188,7 @@
       ●1232: Ác Ma Địa Ngục - 0d30 - 01○1233: Tiệc Hoá Trang - 0e30 - 02●1234: Samurai
         Tử Sĩ - 0f30 -
         03●1235: Đại Tướng Rô Bốt (Recall) - 1030 - 04●1236: Ông Kẹ Bí Ngô - 1130 - 05○1237: Ác Nhân Vô
-        Tuyến - 1230 - 06●1238: Vũ Hội Bóng Đêm - 1330 - 07
+        Tuyến - 1230 - 06●1238: Vũ Hội Bóng Đêm - 1330 - 07○1239: Đại Ca Mukang - 1430 - 08●12310: Quỷ Nhãn Ma Thể - 1530 - 09●12311: AaTrox- 1630 - 0a
       ○1242: Hoả Thuật Sư - 7130 - 01○1243: Quang Vinh - 7230 - 02●1244: Bắc Băng Vương
         - 7330 -
         03○1245: Thầy Tế Mặt Trời - 7430 - 04○1246: Thần Mặt Trời - 7530 - 05
