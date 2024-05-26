@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <h1 class="title">AOV LIST HERO SKIN</h1>
-        <input type="text" id="search" class="search-input" onkeyup="SearchID()" placeholder="Enter ID...">
+        <input type="text" id="search" class="search-input" placeholder="Enter ID...">
         <ul id="results" class="results-list"></ul>
     </div>
 
@@ -24,13 +24,14 @@
                 const response = await fetch('./database.txt');
                 const data = await response.text();
 
-                const entries = data.split(/(?=●|○)/);
+                const entries = data.split('\n');
 
                 entries.forEach(entry => {
-                    const idIndex = entry.indexOf(':');
-                    if (idIndex !== -1) {
-                        const id = entry.slice(1, idIndex).trim(); // Lấy ID, bỏ qua ký tự đầu (● hoặc ○)
-                        allEntries.set(id, entry.trim()); // Lưu vào Map với key là ID
+                    const parts = entry.split(',').map(part => part.trim());
+                    const idPart = parts.find(part => part.startsWith('Decimal_ID:'));
+                    if (idPart) {
+                        const id = idPart.split(':')[1].trim();
+                        allEntries.set(id, entry.trim());
                     }
                 });
             } catch (error) {
@@ -38,7 +39,16 @@
             }
         }
 
-        function SearchID() {
+        // Debounce function to limit the rate at which the search function is invoked
+        function debounce(func, wait) {
+            let timeout;
+            return function (...args) {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(this, args), wait);
+            };
+        }
+
+        function searchID() {
             const searchTerm = document.getElementById('search').value.trim().toLowerCase();
             const resultsList = document.getElementById('results');
             resultsList.innerHTML = ''; // Clear previous results
@@ -59,8 +69,37 @@
         // Use DOMContentLoaded to ensure HTML is fully loaded before executing JavaScript
         document.addEventListener('DOMContentLoaded', () => {
             loadData(); // Load data when the DOM is fully loaded
+
+            const searchInput = document.getElementById('search');
+            const debouncedSearch = debounce(searchID, 300);
+            searchInput.addEventListener('input', debouncedSearch);
         });
 
+        document.addEventListener('DOMContentLoaded', () => {
+            const resultsList = document.getElementById('results');
+            resultsList.addEventListener('scroll', handleScroll);
+
+            function handleScroll() {
+                const scrollTop = resultsList.scrollTop;
+                const clientHeight = resultsList.clientHeight;
+
+                const shrinkRatio = scrollTop / clientHeight;
+
+                const h1 = document.querySelector('.title');
+                const input = document.querySelector('.search-input');
+
+                // Set constraints
+                const minFontSize = 3;
+                const minInputHeight = 2;
+                const minTopPercentage = 35;
+
+                h1.style.fontSize = `${Math.max(5 - shrinkRatio * 2, minFontSize)}em`;
+                input.style.height = `${Math.max(3 - shrinkRatio * 1.5, minInputHeight)}em`;
+
+                input.style.top = `${Math.max(50 - shrinkRatio * 15, minTopPercentage)}%`;
+                resultsList.style.top = `${Math.max(65 - shrinkRatio * 15, minTopPercentage + 15)}%`;
+            }
+        });
     </script>
 </body>
 

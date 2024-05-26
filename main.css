@@ -8,30 +8,37 @@
   -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
   outline: none !important;
 }
+
 @font-face {
   font-family: 'f1';
   src: url('./adamwarrenpro.ttf');
 }
+
 @font-face {
   font-family: 'f2';
   src: url('./RainlyRegular-OVl7O.otf');
 }
+
 @font-face {
   font-family: 'f3';
   src: url('./mangat.ttf');
 }
+
 @font-face {
   font-family: 'f4';
   src: url('./Travel_Journal.ttf2');
 }
+
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width:900px) {
   body {
+    overflow: hidden;
     background: url('beach.jpg');
     background-size: cover;
   }
@@ -78,7 +85,7 @@ body {
   .content_7,
   .content_9,
   .content_11,
-  .content_13{
+  .content_13 {
     position: absolute;
     top: 13%;
     height: 50px;
@@ -150,6 +157,7 @@ body {
     position: absolute;
     top: 123%;
   }
+
   .content_13 {
     position: absolute;
     top: 145%;
@@ -167,13 +175,13 @@ body {
   }
 
   .content_tray_r:hover,
-  .content_tray_l:hover{
-    animation: show 800ms forwards ease-in;
+  .content_tray_l:hover {
+    animation: show 1s forwards ease-in;
   }
 
   .content_tray_r:not(:hover),
-  .content_tray_l:not(:hover){
-    animation: hide 800ms forwards ease-out;
+  .content_tray_l:not(:hover) {
+    animation: hide 1s forwards ease-out;
   }
 
   .content_tray_r .content_2,
@@ -192,6 +200,7 @@ body {
     background-color: rgba(242, 255, 251, .8);
     border-radius: 14px;
   }
+
   .content_tray_r .img_content {
     position: absolute;
     height: 50px;
@@ -252,35 +261,42 @@ body {
     position: absolute;
     top: 123%;
   }
+
   @keyframes show {
 
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
-    
+
   }
+
   @keyframes hide {
 
-    0%{
+    0% {
       opacity: 1;
     }
-    100%{
+
+    100% {
       opacity: 0;
     }
-    
+
   }
 }
+
 @media (max-width:899px) {
-  body{
+  body {
     background-image: url('mobile_bg.jpg');
-    /* background-size: cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+
   .main {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: transparent;
   }
