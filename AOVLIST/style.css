@@ -2,7 +2,9 @@
     font-family: "A";
     src: url("../MTO_Canun.ttf");
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 body {
     font-family: "A";
     height: 100vh;
