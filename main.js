@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var place_click = document.querySelector('.avatar');
     var click_count = 0;
-    var list_bg = ["../IMG/bg1.jpg", "../IMG/bg2.jpg", "../IMG/bg3.jpg", "../IMG/bg4.jpg", "../IMG/bg5.jpeg","../IMG/bg6.jpg"];
+    var list_bg = ["./IMG/bg1.jpg", "./IMG/bg2.jpg", "./IMG/bg3.jpg", "./IMG/bg4.jpg", "./IMG/bg5.jpeg","./IMG/bg6.jpg"];
     var devices = window.screen;
 
     function getRandomImage() {
