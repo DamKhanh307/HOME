@@ -233,16 +233,13 @@ body {
     text-align: center;
     font-size: larger;
     border-radius: 4px;
-    
     padding-bottom: 10px;
     border-bottom: 1px dashed gray ;
 }
 #music-list li {
     white-space: nowrap;
     overflow: auto;
-    text-overflow: ellipsis;
     width: 80vw;
-    
     position: relative;
     font-size: 12px;
     padding: 3em;
@@ -319,8 +316,7 @@ audio {
         height: 100%;
     }
     .btns p {
-        width: 41%;
-        text-overflow: ellipsis;
+        width: 40%;
     }
     .bottomBtns {
         margin: 0;
@@ -346,7 +342,7 @@ audio {
     }
     .nav {
         width: 60vw;
-        height: 100vh;
+        height: 90vh;
     }
     .nav .setting_title{
         font-size: 2em;
