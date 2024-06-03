@@ -153,7 +153,7 @@ body {
       left: 120%;
     }
   }
-.setting{
+/* .setting{
     position: fixed;
     bottom: 1vh;
     right: 1vw;
@@ -259,7 +259,7 @@ body {
 .element_music span {
     position: absolute;
     /* top:10.2em; */
-    left:5em;
+    /*left:5em;
     font-weight:900;
 }
 h6{
@@ -308,15 +308,15 @@ audio {
 @keyframes fadeout {
     from {top: 30px; opacity: 1;}
     to {top: 0; opacity: 0;}
-}
+} */
 @media screen and (max-width: 500px) {
     .content {
-        width: 100vw;
-        min-width: 100vw;
-        height: 100vh;
+        width: 100%;
+        min-width: 100%;
+        height: 100%;
     }
     .btns p {
-        width: 40%;
+        width: 41%;
     }
     .bottomBtns {
         margin: 0;
@@ -339,7 +339,7 @@ audio {
         width: 90px;
         top: 48px;
         left: -20px;
-    }
+    /* }
     .nav {
         position:fixed;
         top:5vh;
@@ -348,5 +348,6 @@ audio {
     }
     .nav .setting_title{
         font-size: 2em;
-    }
+    } */
+}
 }
