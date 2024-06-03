@@ -11,27 +11,36 @@ document.addEventListener('DOMContentLoaded', function () {
     var setting = document.getElementsByClassName('settings_music')[0]
 
     document.querySelectorAll('.element_music').forEach(item => {
+        const songTitle = item.querySelector('span');
+        const originalTitle = songTitle.innerText;
+
         item.addEventListener('click', function () {
             const audio = this.querySelector('audio');
-            const songTitle = this.querySelector('span').innerText;
 
             allAudios.forEach(a => {
                 if (a !== audio) {
                     a.pause();
                     a.currentTime = 0;
+                    const siblingSongTitle = a.closest('.element_music').querySelector('span');
+                    siblingSongTitle.innerText = siblingSongTitle.dataset.originalTitle;
                 }
             });
 
             if (audio) {
                 if (audio.paused) {
                     audio.play();
-                    showToast(`Playing: ${songTitle}`);
+                    showToast(`Playing: ${originalTitle}`);
+                    songTitle.innerText = 'Đang Phát...';
                 } else {
                     audio.pause();
-                    showToast(`Paused: ${songTitle}`);
+                    showToast(`Paused: ${originalTitle}`);
+                    songTitle.innerText = originalTitle;
                 }
             }
         });
+
+        // Store original title in a data attribute for later use
+        songTitle.dataset.originalTitle = originalTitle;
     });
 
     function showToast(message) {
@@ -41,13 +50,13 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
     }
 
-    setting.addEventListener('click',function() {
+    setting.addEventListener('click', function () {
         nav.style.opacity = '1';
         document.body.style.overflow = 'visible';
         nav.style['pointer-events'] = 'auto';
     })
 
-    close_nav.addEventListener('click',function() {
+    close_nav.addEventListener('click', function () {
         nav.style.opacity = '0';
         document.body.style.overflow = 'hidden';
         nav.style['pointer-events'] = 'none';
