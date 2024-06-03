@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var place_click = document.querySelector('.avatar');
     var click_count = 0;
     var list_bg_desktop = ["./IMG/bg1.jpg", "./IMG/bg2.jpg", "./IMG/bg3.jpg", "./IMG/bg4.jpg", "./IMG/bg5.jpeg", "./IMG/bg6.jpg"];
-    var list_bg = ["./IMG/BG_Mobile_1.jpg", "./IMG/BG_Mobile_2.jpg", "./IMG/BG_Mobile_3.jpg", "./IMG/BG_Mobile_4.jpg", "./IMG/BG_Mobile_5.jpg"]
     var devices = window.screen;
     const allAudios = document.querySelectorAll('audio');
 
@@ -63,17 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const randomIndex = Math.floor(Math.random() * list_bg_desktop.length);
         return list_bg_desktop[randomIndex];
     }
-    function getRandomImage_Mobile() {
-        const randomIndex = Math.floor(Math.random() * list_bg.length);
-        return list_bg[randomIndex];
-    }
-
-    if (devices.width >= 900) {
-        document.body.style.backgroundImage = `url(${getRandomImage()})`;
-    } else {
-        document.body.style.backgroundImage = `url(${getRandomImage_Mobile()})`;
-    }
-
+    document.body.style.backgroundImage = `url(${getRandomImage()})`;
     place_click.addEventListener('click', function OpenImg() {
         click_count++;
         if (click_count === 3) {
