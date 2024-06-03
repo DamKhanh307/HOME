@@ -320,7 +320,9 @@ audio {
         height: 100%;
     }
     .btns p {
-        width: 41%;
+        width: 100%;
+        overflow: hidden; /* Ensure overflow is hidden */
+        text-overflow: ellipsis;
     }
     .bottomBtns {
         margin: 0;
@@ -346,6 +348,6 @@ audio {
     }
     .nav {
         width: 100vw;
-        height: 50vh;
+        height: 90vh;
     }
 }
