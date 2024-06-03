@@ -1,14 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: url('./cursor.ico'),auto;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
 a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#4294ff; 
+    border-radius: 10px;
+    height: 1px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4294ff; 
+  }
+
 html, body, .wrap {
-    font-family: 'a';
     width: 100%;
     height: 100%;
 }
@@ -16,6 +42,7 @@ html, body, .wrap {
 body {
     background-image: url("../IMG/bg5.jpeg");
     background-size: cover;
+    overflow: hidden;
 }
 
 .wrap {
@@ -127,6 +154,165 @@ body {
       left: 120%;
     }
   }
+.setting{
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+}
+.settings_music {
+    height: 50px;
+    width: 50px;
+    animation: Twirl 3s linear infinite;
+}
+.settings_music:hover{
+    opacity: .5;
+}
+@keyframes Twirl {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 8000;
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 245,.8);
+    transition: 200ms ease-in;
+    overflow:hidden;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+.nav .setting_title {
+    font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top:3px;
+    padding: 10px;
+    color:#1b78c4;
+    border-bottom: .5px solid gray ;
+}
+.nav .setting_title .fa-gear {
+    position: absolute;
+    left:1vw;
+    font-size: .7em;
+    margin-top:5px;
+    color:#1b78c4;
+    text-shadow: none;
+    animation: Twirl 2s linear infinite;
+}
+.nav .fa-xmark {
+    position: absolute;
+    margin-top:3px;
+    right:.70em;
+    background-color:transparent;
+    border-radius: 4px;
+}
+.nav .fa-xmark:hover{
+    opacity: .5;
+}
+.nav .list_music {
+    height: calc(100vh - 150px);
+    padding: 10px;
+    overflow-x: hidden;
+}
+.nav .list_music p{
+    font-family: "Rowdies";
+    text-transform:uppercase;
+    color:#1b78c4;
+    letter-spacing:2px;
+    font-weight:700;
+    margin: 1.2em 0 1em;
+    text-align: center;
+    font-size: larger;
+    border-radius: 4px;
+    
+    padding-bottom: 10px;
+    border-bottom: 1px dashed gray ;
+}
+#music-list li {
+    white-space: nowrap;
+    overflow: auto;
+    text-overflow: ellipsis;
+    width: 80vw;
+    
+    position: relative;
+    font-size: 12px;
+    padding: 3em;
+    list-style: none;
+}
+.thumb {
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+}
+.element_music {
+    position: relative;
+    margin-left: 5px;
+    padding: 10px;
+    border-bottom: 1.5px dashed #fcff62 ;
+}
+.element_music span {
+    position: absolute;
+    /* top:10.2em; */
+    left:5em;
+    font-weight:900;
+}
+h6{
+    position: absolute;
+    left:8em;
+    bottom:2em;
+    color: gray;
+}
+audio {
+    display: none;
+}
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #11ff00;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+}
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
 @media screen and (max-width: 450px) {
     .content {
         width: 100%;
@@ -157,5 +343,9 @@ body {
         width: 90px;
         top: 48px;
         left: -20px;
+    }
+    .nav {
+        width: 100vw;
+        height: 50vh;
     }
 }

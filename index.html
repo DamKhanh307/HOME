@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Đàm Khánh | Profile Home</title>
-    <meta name="Keywords" content="DK"/>
-    <meta name="Description" content="DK"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="Keywords" content="DK" />
+    <meta name="Description" content="DK" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="shortcut icon" href="IMG/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="wrap">
         <div class="content">
@@ -17,26 +23,119 @@
                 <h2>Đàm Khánh</h2>
             </div>
             <div class="btns">
-                <a href="https://damkhanh307.github.io/Home/AOVLIST/" target="_blank"><p>AOV List</p></a>
-                <a href="https://www.mediafire.com/file/6wb9edgfn8uckw0/Resource+G%E1%BB%91c+.zip/file" target="_blank"><p>Resources Gốc</p></a>
-                <a href="https://drive.google.com/drive/folders/1to1BcLRzF3a-KcSPTDEbBAHVv62vgopG" target="_blank"><p>Art 2D AOV</p></a>
-                <a href="https://github.com/DamKhanh307" target="_blank"><p>Github</p></a>
-                <a href="https://damkhanh307.github.io/Home/AOV-MOD-TOOL/" target="_blank"><p>AOV Mod Tool</p></a>
-                <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" target="_blank"><p>Pydroid 3 Premium</p></a>
-                <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown/" target="_blank"><p>Lunar Countdown</p></a>
-                <a href="https://damkhanh307.github.io/Home/music-player/" target="_blank"><p>Music Player</p></a>
-                <a href="https://damkhanh307.github.io/Home/Cote/" target="_blank"><p>COTE</p></a>
+                <a href="https://damkhanh307.github.io/Home/AOVLIST/" target="_blank">
+                    <p>AOV List</p>
+                </a>
+                <a href="https://www.mediafire.com/file/6wb9edgfn8uckw0/Resource+G%E1%BB%91c+.zip/file" target="_blank">
+                    <p>Resources Gốc</p>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1to1BcLRzF3a-KcSPTDEbBAHVv62vgopG" target="_blank">
+                    <p>Art 2D AOV</p>
+                </a>
+                <a href="https://github.com/DamKhanh307" target="_blank">
+                    <p>Github</p>
+                </a>
+                <a href="https://damkhanh307.github.io/Home/AOV-MOD-TOOL/" target="_blank">
+                    <p>AOV Mod Tool</p>
+                </a>
+                <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" target="_blank">
+                    <p>Pydroid 3 Premium</p>
+                </a>
+                <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown/" target="_blank">
+                    <p>Lunar Countdown</p>
+                </a>
+                <a href="https://damkhanh307.github.io/Home/music-player/" target="_blank">
+                    <p>Music Player</p>
+                </a>
+                <a href="https://damkhanh307.github.io/Home/Cote/" target="_blank">
+                    <p>COTE</p>
+                </a>
             </div>
             <div class="btns bottomBtns">
-                <a href="https://www.facebook.com/dam.khanh.307" target="_blank"><img class="face_image" src="face.png" alt=""><p>Facebook</p></a>
-                <a href="https://youtube.com/@DK_307" target="_blank"><img class='youtube_image' src="IMG/youtube_logo.png" alt=""><p>Youtube</p></a>
+                <a href="https://www.facebook.com/dam.khanh.307" target="_blank"><img class="face_image" src="face.png"
+                        alt="">
+                    <p>Facebook</p>
+                </a>
+                <a href="https://youtube.com/@DK_307" target="_blank"><img class='youtube_image'
+                        src="IMG/youtube_logo.png" alt="">
+                    <p>Youtube</p>
+                </a>
             </div>
         </div>
-    <div class="running">
-        <img src="pika.gif">
+        <div class="running">
+            <img src="pika.gif">
+        </div>
+        <div class="setting">
+            <img class='settings_music' src="./IMG/music_setting.png" alt="settings">
+        </div>
+        <div class="nav">
+            <p class="setting_title"><i class="fa-solid fa-gear"></i><i class="fa-solid fa-xmark"></i>Settings</p>
+            <div class="list_music">
+                <p>Danh Sách Nhạc</p>
+                <ul id="music-list"></ul>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_(BEAT) Ánh Chiều Tàn - D Empty ft. Poll_1717379430893.jpg"
+                        alt="Thumb Music"><span>(BEAT) Ánh Chiều Tàn</span>
+                    <h6>D Empty ft. Poll</h6><audio
+                        src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/(BEAT) Ánh Chiều Tàn - D Empty ft. Poll(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_Bông Hoa Chẳng Tồn Tại - Huy Vạc ♫  Những Bản Lofi Buồn Chill Nhẹ Nhàng Hot Nhất 2023 - Lofi Chill_1717379486613.jpg"
+                        alt="Thumb Music"><span>Bông Hoa Chẳng Tồn Tại</span>
+                    <h6>Huy Vạc</h6><audio
+                        src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/Bông Hoa Chẳng Tồn Tại - Huy Vạc ♫  Những Bản Lofi Buồn Chill Nhẹ Nhàng Hot Nhất 2023 - Lofi Chill(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_TINH VỆ (精卫) - JAPANDEE REMIX_1717379512394.jpg"
+                        alt="Thumb Music"><span>TINH VỆ (精卫)</span>
+                    <h6>Nhất Khỏa Lang Tinh ft JAPANDEE</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/TINH VỆ (精卫) - JAPANDEE REMIX(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_Thương Thầm (Lofi Ver.) - NB3 Hoài Bảo x Freak D_1717379547747.jpg"
+                        alt="Thumb Music"><span>Thương Thầm</span>
+                    <h6>NB3 Hoài Bảo x Freak D</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/Thương Thầm (Lofi Ver.) - NB3 Hoài Bảo x Freak D(MP3_160K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_Yêu Khác Thương Hại (Lofi) - Thành Đạt x Ryan _ Khi ta còn yêu chẳng cần biết nay là thứ mấy.._1717379541532.jpg"
+                        alt="Thumb Music"><span>Yêu Khác Thương Hại</span>
+                    <h6>Thành Đạt x Ryan</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/Yêu Khác Thương Hại (Lofi) - Thành Đạt x Ryan _ Khi ta còn yêu chẳng cần biết nay là thứ mấy(MP3_160K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/10nam.jpg"
+                        alt="Thumb Music"><span>Đạo Mộ Bút Ký· Mười Năm Nhân Gian</span>
+                    <h6>Trạch Quốc Đồng Học (泽国同学)</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/[VIETSUB] Đạo Mộ Bút Ký· Mười Năm Nhân Gian (盗墓笔记·十年人间) - Trạch Quốc Đồng Học (泽国同学) _ _ ♪ Tik Tok ♪(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/khotu.jpg"
+                        alt="Thumb Music"><span>Khó từ</span>
+                    <h6>Tường Lặc Lặc _ 难却</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/[Vietsub] Khó từ - Tường Lặc Lặc _ 难却 - 祥嘞嘞(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/1000191990.jpg"
+                        alt="Thumb Music"><span>Từ Cửu Môn Hồi Ức</span>
+                    <h6>Đẳng Thậm Ma Quân</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/[Vietsub] Từ Cửu Môn Hồi Ức - Đẳng Thậm Ma Quân _ 辞九门回忆 - 等什么君 ♪(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/chi_thuong.jpg"
+                        alt="Thumb Music"><span>Chỉ Thượng Phong Nhã</span>
+                    <h6>Linh Nhất Cửu Linh Nhị</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/[Vietsubᴸʸʳᶦᶜ] Chỉ Thượng Phong Nhã - Linh Nhất Cửu Linh Nhị (纸上风雅 - 零一九零贰)(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/tunga.jpg"
+                        alt="Thumb Music"><span> Tứ Ngã (Ban Cho Ta)</span>
+                    <h6>Nhất Chỉ Bạch Dương</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/[Vietsub] Tứ Ngã (Ban Cho Ta) - Nhất Chỉ Bạch Dương __ 赐我 - 一只白羊(MP3_128K).mp3"></audio>
+                </li>
+                <li class="element_music"><img class='thumb'
+                        src="https://raw.githubusercontent.com/Vande541/source_data/main/MUSIC_羽肿 - Windy Hill (BGM)_1717379468551.jpg"
+                        alt="Thumb Music"><span>羽肿 - Windy Hill</span>
+                    <h6>Unknow</h6><audio src="https://cdn.jsdelivr.net/gh/Vande541/source_data@main/羽肿 - Windy Hill (BGM)(MP3_128K).mp3"></audio>
+                </li>
+            </div>
+        </div>
     </div>
-    </div>
+    <div id="toast"><i class="fa-solid fa-check" style="color: #11ff00;"></i></div>
     <script src="main.js"></script>
     <script src="sakura.js"></script>
 </body>
+
 </html>
