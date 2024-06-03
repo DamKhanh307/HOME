@@ -52,13 +52,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setting.addEventListener('click', function () {
         nav.style.opacity = '1';
-        document.body.style.overflow = 'visible';
         nav.style['pointer-events'] = 'auto';
     })
 
     close_nav.addEventListener('click', function () {
         nav.style.opacity = '0';
-        document.body.style.overflow = 'hidden';
         nav.style['pointer-events'] = 'none';
     })
     function getRandomImage() {
