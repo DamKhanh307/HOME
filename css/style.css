@@ -341,8 +341,10 @@ audio {
         left: -20px;
     }
     .nav {
+        position:fixed;
+        top:5px;
         width: 60vw;
-        height: 90vh;
+        height: 85vh;
     }
     .nav .setting_title{
         font-size: 2em;
