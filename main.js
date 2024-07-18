@@ -4,64 +4,70 @@ document.addEventListener('DOMContentLoaded', function () {
     var list_bg_desktop = ["./IMG/bg1.jpg", "./IMG/bg2.jpg", "./IMG/bg3.jpg", "./IMG/bg4.jpg", "./IMG/bg5.jpeg", "./IMG/bg6.jpg"];
     var devices = window.screen;
 
-    // var close_nav = document.getElementsByClassName('fa-xmark')[0]
-    // var nav = document.getElementsByClassName('nav')[0]
-    // var setting = document.getElementsByClassName('settings_music')[0]
+    var close_nav = document.getElementsByClassName('fa-xmark')[0];
+    var nav = document.getElementsByClassName('nav')[0];
+    var setting = document.getElementsByClassName('settings_music')[0];
 
-    // document.querySelectorAll('.element_music').forEach(item => {
-    //     const songTitle = item.querySelector('span');
-    //     const originalTitle = songTitle.innerText;
+    // Tạo mảng chứa tất cả các phần tử <audio>
+    var allAudios = Array.from(document.querySelectorAll('.element_music audio'));
 
-    //     item.addEventListener('click', function () {
-    //         const audio = this.querySelector('audio');
+    document.querySelectorAll('.element_music').forEach(item => {
+        const songTitle = item.querySelector('span');
+        const originalTitle = songTitle.innerText;
 
-    //         allAudios.forEach(a => {
-    //             if (a !== audio) {
-    //                 a.pause();
-    //                 a.currentTime = 0;
-    //                 const siblingSongTitle = a.closest('.element_music').querySelector('span');
-    //                 siblingSongTitle.innerText = siblingSongTitle.dataset.originalTitle;
-    //             }
-    //         });
+        item.addEventListener('click', function () {
+            const audio = this.querySelector('audio');
 
-    //         if (audio) {
-    //             if (audio.paused) {
-    //                 audio.play();
-    //                 showToast(`Playing: ${originalTitle}`);
-    //                 songTitle.innerText = 'Đang Phát...';
-    //             } else {
-    //                 audio.pause();
-    //                 showToast(`Paused: ${originalTitle}`);
-    //                 songTitle.innerText = originalTitle;
-    //             }
-    //         }
-    //     });
+            allAudios.forEach(a => {
+                if (a !== audio) {
+                    a.pause();
+                    a.currentTime = 0;
+                    const siblingSongTitle = a.closest('.element_music').querySelector('span');
+                    siblingSongTitle.innerText = siblingSongTitle.dataset.originalTitle;
+                }
+            });
 
-    //     // Store original title in a data attribute for later use
-    //     songTitle.dataset.originalTitle = originalTitle;
-    // });
+            if (audio) {
+                if (audio.paused) {
+                    audio.play();
+                    showToast(`Playing: ${originalTitle}`);
+                    songTitle.innerText = 'Đang Phát...';
+                } else {
+                    audio.pause();
+                    showToast(`Paused: ${originalTitle}`);
+                    songTitle.innerText = originalTitle;
+                }
+            }
+        });
 
-    // function showToast(message) {
-    //     const toast = document.getElementById("toast");
-    //     toast.innerText = message;
-    //     toast.className = "toast show";
-    //     setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
-    // }
+        // Store original title in a data attribute for later use
+        songTitle.dataset.originalTitle = originalTitle;
+    });
 
-    // setting.addEventListener('click', function () {
-    //     nav.style.opacity = '1';
-    //     nav.style['pointer-events'] = 'auto';
-    // })
+    function showToast(message) {
+        const toast = document.getElementById("toast");
+        toast.innerText = message;
+        toast.className = "toast show";
+        setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
+    }
 
-    // close_nav.addEventListener('click', function () {
-    //     nav.style.opacity = '0';
-    //     nav.style['pointer-events'] = 'none';
-    // })
+    setting.addEventListener('click', function () {
+        nav.style.opacity = '1';
+        nav.style['pointer-events'] = 'auto';
+    });
+
+    close_nav.addEventListener('click', function () {
+        nav.style.opacity = '0';
+        nav.style['pointer-events'] = 'none';
+    });
+
     function getRandomImage() {
         const randomIndex = Math.floor(Math.random() * list_bg_desktop.length);
         return list_bg_desktop[randomIndex];
     }
+
     document.body.style.backgroundImage = `url(${getRandomImage()})`;
+
     place_click.addEventListener('click', function OpenImg() {
         click_count++;
         if (click_count === 3) {
