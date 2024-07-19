@@ -65,7 +65,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const randomIndex = Math.floor(Math.random() * list_bg_desktop.length);
         return list_bg_desktop[randomIndex];
     }
-
+    // var containers = document.querySelectorAll('.element_music');
+    
+    // containers.forEach(function(container) {
+    //   var textSpan = container.querySelector('span');
+      
+    //   if (textSpan.scrollWidth > container.clientWidth) {
+    //     textSpan.classList.add('animate');
+    //   }
+    // });
     document.body.style.backgroundImage = `url(${getRandomImage()})`;
 
     place_click.addEventListener('click', function OpenImg() {

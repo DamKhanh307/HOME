@@ -278,6 +278,7 @@ body {
     margin-left: 5px;
     padding: 10px;
     border-bottom: 1.5px dashed #fcff62;
+    white-space: nowrap;
 }
 
 .element_music span {
@@ -285,8 +286,10 @@ body {
     /* top:10.2em; */
     left: 5em;
     font-weight: 900;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
-
 h6 {
     position: absolute;
     left: 8em;
@@ -409,12 +412,20 @@ audio {
 
     .nav {
         position: fixed;
-        top: 5vh;
-        width: 60vw;
-        height: 90vh;
+        width: 70vw;
+        height: 100vh;
     }
 
     .nav .setting_title {
         font-size: 2em;
+    }
+    .nav .fa-xmark{
+        position: absolute;
+        left:85%;
+    }
+    .element_music span{
+        width: 50vw;
+        overflow: hidden;
+        white-space: nowrap;
     }
 }
