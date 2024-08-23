@@ -2,6 +2,10 @@
     font-family: "A";
     src: url("../MTO_Canun.ttf");
 }
+@font-face {
+    font-family: 'My_Font';
+    src: url('./UVNHaiLong.ttf');
+}
 ::-webkit-scrollbar{
     display: none;
 }
@@ -85,7 +89,65 @@ input {
 .results-list li:hover {
     background-color: #f0f0f0;
 }
+.Mode{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 8;
+}
+a{
+    text-decoration: none;
+    text-shadow: 0 0 10px #7e7979;
+    text-shadow: 0 0 10px #7e7979;
+    font-size: 30px;
+    font-family: 'My_Font';
+}
+.bgmode{
+    height: 100vh;
+    width: 100vw;
 
+}
+.container_mode{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 550px;
+    width: 860px;
+    border-radius: 12px;
+    background:transparent;
+    flex-wrap: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 8;
+    
+}
+.choice{
+    background-color: #a59797;
+    height: 440px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.choice .cover{
+    height: 308px;
+    width: 250px;
+    border-radius: 12px;
+}
+.choice .hero{
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 23%;
+}
+.choice .skin{
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    right: 23%;
+}
 @media (max-width: 800px) {
     h1 {
         font-size: 3em; /* Adjust font size for smaller screens */

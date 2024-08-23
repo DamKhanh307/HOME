@@ -413,7 +413,8 @@ audio {
     .nav {
         position: fixed;
         width: 70vw;
-        height: 100vh;
+        height: 90vh;
+        top:2%;
     }
 
     .nav .setting_title {
