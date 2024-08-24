@@ -23,9 +23,9 @@
             </div>
         </div>
     </div>
-    <div class="container" style="display:none">
-        <h1 class="title">AOV LIST HERO SKIN</h1>
-        <input type="text" id="search" class="search-input" placeholder="Nhập ID Hoặc Tên Skin...">
+    <div class="container" style="display: none;">
+        <h1 class="title">AOV List Skin</h1>
+        <input type="text" id="search" class="search-input" placeholder="Enter ID or Skin Name...">
         <ul id="results" class="results-list"></ul>
     </div>
 
@@ -33,16 +33,17 @@
         document.addEventListener('DOMContentLoaded', () => {
             var skin = document.querySelector(".skin");
             var Mode = document.querySelector('.Mode');
-            var con = document.querySelector(".container")
+            var container = document.querySelector('.container');
 
+            // Thêm event listener cho phần tử .skin
             skin.addEventListener('click', function (e) {
-                e.preventDefault();
-                Mode.remove();
-                con.style.display = 'block';
+                e.preventDefault(); // Ngăn chặn hành vi mặc định (nếu có)
+                Mode.remove(); // Xóa phần tử Mode khỏi DOM
+                container.style.display = 'block'; // Hiển thị lại phần tử container
             });
         });
 
-        let allEntries = new Map();
+        let allEntries = [];
 
         async function loadData() {
             try {
@@ -54,9 +55,12 @@
                 entries.forEach(entry => {
                     const parts = entry.split(',').map(part => part.trim());
                     const idPart = parts.find(part => part.startsWith('Decimal_ID:'));
-                    if (idPart) {
-                        const id = idPart.split(':')[1].trim();
-                        allEntries.set(id, entry.trim());
+                    const namePart = parts.find(part => part.startsWith('Skin_Name:'));
+
+                    if (idPart && namePart) {
+                        const id = idPart.split(':')[1].trim().toLowerCase();
+                        const name = namePart.split(':')[1].trim().toLowerCase();
+                        allEntries.push({ id, name, entry: entry.trim() });
                     }
                 });
             } catch (error) {
@@ -64,7 +68,6 @@
             }
         }
 
-        // Debounce function to limit the rate at which the search function is invoked
         function debounce(func, wait) {
             let timeout;
             return function (...args) {
@@ -82,8 +85,8 @@
                 return; // If search term is empty, do nothing
             }
 
-            allEntries.forEach((entry, id) => {
-                if (id.toLowerCase().startsWith(searchTerm)) { // Kiểm tra xem ID có bắt đầu bằng searchTerm không
+            allEntries.forEach(({ id, name, entry }) => {
+                if (id.startsWith(searchTerm) || name.startsWith(searchTerm)) { // Kiểm tra xem id hoặc name có bắt đầu bằng searchTerm không
                     const listItem = document.createElement('li');
                     listItem.textContent = entry;
                     resultsList.appendChild(listItem);
@@ -91,7 +94,6 @@
             });
         }
 
-        // Use DOMContentLoaded to ensure HTML is fully loaded before executing JavaScript
         document.addEventListener('DOMContentLoaded', () => {
             loadData(); // Load data when the DOM is fully loaded
 
@@ -113,7 +115,6 @@
                 const h1 = document.querySelector('.title');
                 const input = document.querySelector('.search-input');
 
-                // Set constraints
                 const minFontSize = 3;
                 const minInputHeight = 2;
                 const minTopPercentage = 35;
