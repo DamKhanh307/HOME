@@ -12,7 +12,7 @@
 body {
     font-family: "A";
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(45deg, #eda7e2, #8be2d3, #e894c9, #20ff46);
     background-size: 300% 300%;
     animation: animated 12s ease-in-out infinite;
@@ -45,9 +45,7 @@ h1 {
     font-size: 5em;
     text-align: center;
     text-wrap: nowrap;
-    -webkit-text-stroke: 5px #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:#f0f0f0;
     transition: font-size 0.3s, top 0.3s;
     min-font-size: 3em; /* Minimum font size */
 }
@@ -94,6 +92,7 @@ input {
     height: 100vh;
     width: 100vw;
     z-index: 8;
+    background-image: url('https://images7.alphacoders.com/121/thumb-1920-1211134.jpg');
 }
 a{
     text-decoration: none;
@@ -103,9 +102,9 @@ a{
     font-family: 'My_Font';
 }
 .bgmode{
+    position: fixed;
     height: 100vh;
     width: 100vw;
-
 }
 .container_mode{
     display: flex;
