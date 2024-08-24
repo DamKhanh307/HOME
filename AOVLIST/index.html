@@ -23,24 +23,22 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="display:none">
         <h1 class="title">AOV LIST HERO SKIN</h1>
-        <input type="text" id="search" class="search-input" placeholder="Enter ID...">
+        <input type="text" id="search" class="search-input" placeholder="Nhập ID Hoặc Tên Skin...">
         <ul id="results" class="results-list"></ul>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Các đoạn mã khác...
-
-            // Lấy phần tử .skin và .Mode
             var skin = document.querySelector(".skin");
             var Mode = document.querySelector('.Mode');
+            var con = document.querySelector(".container")
 
-            // Thêm event listener cho phần tử .skin
             skin.addEventListener('click', function (e) {
-                e.preventDefault(); // Ngăn chặn hành vi mặc định (nếu có)
-                Mode.remove(); // Xóa phần tử Mode khỏi DOM
+                e.preventDefault();
+                Mode.remove();
+                con.style.display = 'block';
             });
         });
 
