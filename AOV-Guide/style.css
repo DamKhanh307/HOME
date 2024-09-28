@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "A";
+    src: url("../MTO_Canun.ttf");
+}
+@font-face {
+    font-family: 'My_Font';
+    src: url('./UVNHaiLong.ttf');
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body {
+    font-family: "A";
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #eda7e2, #8be2d3, #e894c9, #20ff46);
+    background-size: 300% 300%;
+    animation: animated 12s ease-in-out infinite;
+    overflow: hidden;
+}
+
+@keyframes animated {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5em;
+    text-align: center;
+    text-wrap: nowrap;
+    color:#f0f0f0;
+    transition: font-size 0.3s, top 0.3s;
+    min-font-size: 3em; /* Minimum font size */
+}
+
+input {
+    position: absolute;
+    width: 75%;
+    height: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(100px);
+    transition: height 0.3s, top 0.3s;
+    min-height: 2em; /* Minimum height */
+}
+
+.results-list {
+    position: absolute;
+    width: 75%;
+    max-height: 40%;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    transition: top 0.3s;
+}
+
+.results-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.results-list li:hover {
+    background-color: #f0f0f0;
+}
+@media (max-width: 800px) {
+    body{
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 3em; /* Adjust font size for smaller screens */
+        top: 10%;
+    }
+
+    input {
+        width: 90%;
+        height: 2.5em;
+        top: 40%;
+    }
+
+    .results-list {
+        width: 90%;
+        top: 55%;
+        max-height: 45%;
+    }
+}
