@@ -113,15 +113,15 @@ body {
     height: 40px;
     width: 40px;
     top: 11px;
-    left: 14px;
+    left: 11px;
 }
 
 .bottomBtns .youtube_image {
     position: absolute;
-    height: 90px;
-    width: 90px;
-    top: 48px;
-    left: -10px;
+    height: 66px;
+    width: 66px;
+    top: 64px;
+    left: -2px
 }
 
 .bottomBtns p {
@@ -189,14 +189,14 @@ body {
         height: 40px;
         width: 40px;
         top: 11px;
-        left: 5px;
+        left: 1px;
     }
 
     .bottomBtns .youtube_image {
         position: absolute;
-        height: 90px;
-        width: 90px;
-        top: 48px;
-        left: -20px;
+        height: 67px;
+        width: 67px;
+        top: 63px;
+        left: -12px;
     }
 }
