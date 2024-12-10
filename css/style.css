@@ -154,6 +154,21 @@ body {
     height: 100px;
     width: 100px;
 }
+.snowman {
+    position: fixed;
+    bottom: -2.1%;
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    right:0%;
+}
+
+.snowman img {
+    height: 150px;
+    width: 150px;
+}
 
 @keyframes running2 {
     0% {
