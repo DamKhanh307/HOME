@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch Âm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+
+        .app {
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <h1>Lịch Âm</h1>
+        <div id="date-display">
+            <p>Ngày dương lịch: <span id="gregorian-date"></span></p>
+            <p>Ngày âm lịch: <span id="lunar-date"></span></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.13/lunar.min.js"></script>
+    <script>
+        // Sử dụng thư viện LunarJS
+        function getLunarDate(date) {
+            const lunar = Lunar.fromDate(date);
+            return `${lunar.getDay()}/${lunar.getMonth()}/${lunar.getYear()}`;
+        }
+
+        function updateDate() {
+            const today = new Date();
+            document.getElementById('gregorian-date').innerText = today.toLocaleDateString('vi-VN');
+            document.getElementById('lunar-date').innerText = getLunarDate(today);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateDate();
+        });
+
+    </script>
+</body>
+
+</html>
