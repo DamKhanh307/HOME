@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .app {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .select img {
+            display: block;
+        }
+
+        .curtain {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            z-index: 10;
+        }
+
+        .l_curtain,
+        .r_curtain {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            background: url("wifeUI_png_wife_curtain.png");
+            width: 0%;
+            transition: width 3s ease-in-out;
+        }
+
+        .l_curtain {
+            left: 0;
+        }
+
+        .r_curtain {
+            right: 0;
+        }
+
+        .wife {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            width: 100%;
+            max-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .wife img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div class="select">
+            <img src="wifeUI_png_wife_bg_3.jpg" alt="" width="100%">
+            <div class="curtain">
+                <div class="l_curtain"></div>
+                <div class="r_curtain"></div>
+            </div>
+            <div class="wife">
+                <img id="wifeImage" src="" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const images = {
+            '37': [
+                'https://i.ibb.co/nb39XPn/37.jpg',
+                'https://i.ibb.co/YDwpj6G/37-undress.jpg'
+            ],
+            '38': [
+                'https://i.ibb.co/r59K63W/38.jpg',
+                'https://i.ibb.co/Kb7Gvvt/38-undress.jpg'
+            ],
+            '39': [
+                'https://i.ibb.co/djxqjxc/39.jpg',
+                'https://i.ibb.co/zfjxQWM/39-undress.jpg'
+            ],
+            '40': [
+                'https://i.ibb.co/rcQVVdZ/40.jpg',
+                'https://i.ibb.co/Qr9BrFQ/40-undress.jpg'
+            ],
+            '41': [
+                'https://i.ibb.co/kXssb5r/41.jpg',
+                'https://i.ibb.co/4Jq0wq2/41-undress.jpg'
+            ],
+            '42': [
+                'https://i.ibb.co/Mnwz0V0/42.jpg',
+                'https://i.ibb.co/HXvWPWZ/42-undress.jpg'
+            ],
+            '43': [
+                'https://i.ibb.co/Pt1x9fD/43.jpg',
+                'https://i.ibb.co/LkWGzNM/43-undress.jpg'
+            ],
+            '44': [
+                'https://i.ibb.co/mGPvx0g/44.jpg',
+                'https://i.ibb.co/K9c8VNN/44-undress.jpg'
+            ],
+            '45': [
+                'https://i.ibb.co/j8zQ0sg/45.jpg',
+                'https://i.ibb.co/r6mM0gx/45-undress.jpg'
+            ],
+            '46': [
+                'https://i.ibb.co/F4JCzVp/46.jpg',
+                'https://i.ibb.co/PC1dN1T/46-undress.jpg'
+            ],
+            '47': [
+                'https://i.ibb.co/1zcvwh0/47.jpg',
+                'https://i.ibb.co/tBkvBMT/47-undress.jpg'
+            ],
+            '48': [
+                'https://i.ibb.co/nLkPPHp/48.jpg',
+                'https://i.ibb.co/qs8sRqF/48-undress.jpg'
+            ],
+            '49': [
+                'https://i.ibb.co/8byQpTt/49.jpg',
+                'https://i.ibb.co/gzKNjwP/49-undress.jpg'
+            ],
+            '50': [
+                'https://i.ibb.co/ns64yPx/50.jpg',
+                'https://i.ibb.co/MgBBRwn/50-undress.jpg'
+            ],
+            '51': [
+                'https://i.ibb.co/VHy2c3M/51.jpg',
+                'https://i.ibb.co/nBmQMk8/51-undress.jpg'
+            ],
+            '52': [
+                'https://i.ibb.co/YBjR3RW/52.jpg',
+                'https://i.ibb.co/QphrV9y/52-undress.jpg'
+            ],
+            '53': [
+                'https://i.ibb.co/Njzpqqm/53.jpg',
+                'https://i.ibb.co/qyhx79M/53-undress.jpg'
+            ],
+            '54': [
+                'https://i.ibb.co/GF5TtnM/54.jpg',
+                'https://i.ibb.co/Z1h1Bmt/54-undress.jpg'
+            ]
+
+        };
+
+        const keys = Object.keys(images);
+        const selectedKey = keys[Math.floor(Math.random() * keys.length)];
+        const selectedImages = images[selectedKey];
+
+        const wifeImage = document.getElementById('wifeImage');
+        wifeImage.src = selectedImages[0];
+
+        setTimeout(() => {
+            document.querySelector('.l_curtain').style.width = '50%';
+            document.querySelector('.r_curtain').style.width = '50%';
+        }, 2000);
+
+        setTimeout(() => {
+            wifeImage.src = selectedImages[1];
+            document.querySelector('.l_curtain').style.width = '0';
+            document.querySelector('.r_curtain').style.width = '0';
+        }, 5555);
+    </script>
+</body>
+
+</html>
