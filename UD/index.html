@@ -71,6 +71,14 @@
             align-items: flex-end;
         }
 
+        .wife-container {
+    position: relative;
+    height: calc(100% - 20px); /* Điều chỉnh nếu cần để tránh bị tràn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
         .wife img {
             max-width: 100%;
             height: auto;
@@ -87,9 +95,12 @@
                 <div class="l_curtain"></div>
                 <div class="r_curtain"></div>
             </div>
-            <div class="wife">
-                <img id="wifeImage" src="" alt="">
+            <div class="wife-container">
+                <div class="wife">
+                    <img id="wifeImage" src="" alt="">
+                </div>
             </div>
+            
         </div>
     </div>
 
