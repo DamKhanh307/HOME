@@ -25,6 +25,12 @@
             width: 100%;
         }
 
+        .select {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
         .select img {
             display: block;
         }
@@ -60,27 +66,17 @@
 
         .wife {
             position: absolute;
-            bottom: 0;
+            bottom: 22px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 1;
             width: 100%;
             max-height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
         }
-        .wife-container {
-    position: relative;
-    height: calc(100% - 20px); /* Điều chỉnh nếu cần để tránh bị tràn */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
         .wife img {
             max-width: 100%;
-            height: auto;
+            height: 100%;
             object-fit: contain;
         }
     </style>
